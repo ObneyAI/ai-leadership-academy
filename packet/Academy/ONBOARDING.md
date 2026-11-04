@@ -150,7 +150,7 @@ Only after they confirm opening it, set `saved_file_opened: true` and
 `phase: awaiting-fresh-chat`. Tell them to start a new conversation, select
 this same folder, and send:
 
-> Read ACADEMY.md and remind me what I was exploring.
+> Remind me what I was exploring.
 
 Do not include the saved exploration in that prompt. Stop here. Saving the file,
 asking again in this conversation, or saying they will start a new one does

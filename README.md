@@ -27,7 +27,7 @@ At the end of Session 1, explore a small illustration, see how context affects
 the help, and save useful learning when ready. Open the saved file. Start a new
 conversation with the same folder and say:
 
-> Read ACADEMY.md and remind me what I was exploring.
+> Remind me what I was exploring.
 
 After you confirm that the new conversation recovered the correct saved work,
 the assistant removes the temporary setup guide and its entry-point section.
