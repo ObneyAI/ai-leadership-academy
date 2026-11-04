@@ -21,9 +21,15 @@ FILES = (
     "Course/01-Foundations/questions.md",
 )
 ARCHIVE = "Academy-Session-1.zip"
+INDEX = "Course/release-index.json"
+
+
+def index_json(index):
+    return (json.dumps(index, indent=2, ensure_ascii=False) + "\n").encode()
 
 
 def payload(root=ROOT):
+    """Return the Session 1 files. Files the index marks "draft" stay in source only."""
     source = root / "packet" / "Academy"
     found = set()
     for path in source.rglob("*"):
@@ -31,9 +37,18 @@ def payload(root=ROOT):
             raise ValueError(f"Source must not contain symlinks: {path}")
         if path.is_file() and path.name != ".DS_Store":
             found.add(path.relative_to(source).as_posix())
-    if found != set(FILES):
-        raise ValueError(f"Unexpected or missing source files: {found ^ set(FILES)}")
+    raw_index = (source / INDEX).read_bytes()
+    full_index = json.loads(raw_index)
+    if index_json(full_index) != raw_index:
+        raise ValueError("Release index must use the builder's JSON layout")
+    drafts = {"Course/" + item["path"] for item in full_index["files"] if item["status"] == "draft"}
+    if drafts & set(FILES):
+        raise ValueError(f"A Session 1 file cannot be a draft: {drafts & set(FILES)}")
+    if found != set(FILES) | drafts:
+        raise ValueError(f"Unexpected or missing source files: {found ^ (set(FILES) | drafts)}")
     data = {f"Academy/{name}": (source / name).read_bytes() for name in FILES}
+    released = dict(full_index, files=[item for item in full_index["files"] if item["status"] != "draft"])
+    data[f"Academy/{INDEX}"] = index_json(released)
     guide = data["Academy/ONBOARDING.md"].decode()
     header = guide.split("---", 2)[1]
     for field in ("phase: new", "note_reviewed: false", "saved_file_opened: false"):

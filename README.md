@@ -87,6 +87,13 @@ participant folder; update course material separately and preserve saved work.
 Commit source changes and rebuilt `dist/` together. The builder packages exactly
 ten allowed files and rejects participant notes or recorded onboarding progress.
 
+Later-session material can be drafted in source before it is released. Each
+draft file needs an entry in `release-index.json` with `"status": "draft"`. The
+builder leaves draft files and their index entries out of the Session 1 ZIP, so
+the ZIP and manifest do not change, and it rejects any file the index doesn't
+record. `Course/02-Applications/` is a Session 2 draft. `Course/03-Opportunities/`
+is an illustration of Session 3 material until Tammy and Beverly supply theirs.
+
 `ACADEMY.md` explicitly routes the assistant to the participant's `AGENTS.md`.
 No automatic loading of that filename is assumed in either app. The repository's
 own root `AGENTS.md` is maintainer guidance and is not included in the packet.

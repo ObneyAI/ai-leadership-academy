@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from pathlib import Path
 import shutil
 import tempfile
@@ -61,6 +62,34 @@ class PackageTests(unittest.TestCase):
     def test_cannot_extract_inside_source(self):
         with self.assertRaises(ValueError):
             builder.extract(self.root / "rehearsal", self.root)
+
+    def test_committed_session_1_zip_matches_a_fresh_build(self):
+        builder.build(self.root)
+        for name in (builder.ARCHIVE, "manifest.json"):
+            self.assertEqual((ROOT / "dist" / name).read_bytes(), (self.root / "dist" / name).read_bytes())
+
+    def test_draft_files_stay_out_of_session_1_zip(self):
+        builder.build(self.root)
+        with zipfile.ZipFile(self.root / "dist" / builder.ARCHIVE) as archive:
+            names = archive.namelist()
+            index = json.loads(archive.read("Academy/Course/release-index.json"))
+        self.assertFalse([name for name in names if "02-Applications" in name or "03-Opportunities" in name])
+        self.assertNotIn("draft", {item["status"] for item in index["files"]})
+        source = json.loads((self.root / "packet/Academy/Course/release-index.json").read_text())
+        self.assertIn("draft", {item["status"] for item in source["files"]})
+
+    def test_unrecorded_session_file_blocks_packaging(self):
+        (self.root / "packet/Academy/Course/02-Applications/recap.md").write_text("Not in the index")
+        with self.assertRaises(ValueError):
+            builder.build(self.root)
+
+    def test_session_1_file_cannot_be_marked_draft(self):
+        path = self.root / "packet/Academy/Course/release-index.json"
+        index = json.loads(path.read_text())
+        index["files"][0]["status"] = "draft"
+        path.write_bytes(builder.index_json(index))
+        with self.assertRaises(ValueError):
+            builder.build(self.root)
 
     def test_stale_archive_is_detected(self):
         builder.build(self.root)
