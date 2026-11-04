@@ -10,6 +10,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 FILES = (
     "ACADEMY.md",
+    "AGENTS.md",
     "ONBOARDING.md",
     "Course/Cohort.md",
     "Course/instructions.md",
@@ -108,4 +109,4 @@ if __name__ == "__main__":
         build()
     if args.extract_to:
         extract(args.extract_to)
-    print("Verified: eight source files, ZIP contents and SHA-256 manifest.")
+    print(f"Verified: {len(FILES)} source files, ZIP contents and SHA-256 manifest.")

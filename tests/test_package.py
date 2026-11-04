@@ -25,7 +25,8 @@ class PackageTests(unittest.TestCase):
         self.assertEqual(first, (self.root / "dist" / builder.ARCHIVE).read_bytes())
         builder.check(self.root)
         with zipfile.ZipFile(self.root / "dist" / builder.ARCHIVE) as archive:
-            self.assertEqual(8, len(archive.namelist()))
+            self.assertEqual(9, len(archive.namelist()))
+            self.assertIn("Academy/AGENTS.md", archive.namelist())
 
     def test_participant_file_blocks_packaging(self):
         (self.root / "packet/Academy/Starting-Point.md").write_text("Private question")

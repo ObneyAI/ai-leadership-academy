@@ -1,8 +1,9 @@
 # Academy Memory · Cohort 2
 
 A course workspace for the November–December 2026 AI Leadership Academy.
-Participants use their own approved assistant to save one real work question
-and recover it in a fresh conversation.
+Participants use their own approved assistant to think through real work,
+understand how context shapes its help, inspect useful outputs, and carry
+reviewed work across conversations.
 
 **Version 0.1.1 is a rehearsal draft.** Package integrity is checked; the complete
 Cowork and ChatGPT Work learner journeys still need rehearsal. This repository
@@ -36,6 +37,7 @@ Only the participant's extracted copy completes and prunes onboarding.
 At the start                         After confirmed recovery
 Academy/                             Academy/
   ACADEMY.md                           ACADEMY.md
+  AGENTS.md                            AGENTS.md
   ONBOARDING.md                        Starting-Point.md
   Course/                              Course/
 ```
@@ -52,6 +54,7 @@ All participant-facing source lives in [packet/Academy](packet/Academy).
 | Source | Purpose |
 |---|---|
 | `packet/Academy/ACADEMY.md` | Entry point that becomes a short working guide |
+| `packet/Academy/AGENTS.md` | Lasting companion role: AI fluency, context and learning through work |
 | `packet/Academy/ONBOARDING.md` | Temporary welcome, save, recovery and cleanup steps |
 | `packet/Academy/Course/instructions.md` | Lasting assistant behavior |
 | `packet/Academy/Course/` | Course schedule, actions and Session 1 practice material |
@@ -72,7 +75,11 @@ The extraction destination must not exist. Do not edit generated ZIPs or practic
 copies as source. Do not use the starter ZIP as an update over an existing
 participant folder; update course material separately and preserve saved work.
 Commit source changes and rebuilt `dist/` together. The builder packages exactly
-eight allowed files and rejects participant notes or recorded onboarding progress.
+nine allowed files and rejects participant notes or recorded onboarding progress.
+
+`ACADEMY.md` explicitly routes the assistant to the participant's `AGENTS.md`.
+No automatic loading of that filename is assumed in either app. The repository's
+own root `AGENTS.md` is maintainer guidance and is not included in the packet.
 
 ## Relationship to AI Memory Folder
 

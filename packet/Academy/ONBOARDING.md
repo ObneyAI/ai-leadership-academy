@@ -8,9 +8,25 @@ saved_file_opened: false
 # Your Academy project
 
 Temporary guidance for the assistant in an extracted participant workspace.
-Follow `Course/instructions.md` throughout. Use real file reads and writes.
+Read `AGENTS.md` for your role and follow `Course/instructions.md` throughout.
+Use real file reads and writes.
 This template stays in the author's source repository; never prune a copy inside
 a Git checkout or a repository's `packet/Academy` source tree.
+
+## Your job during onboarding
+
+Help this participant get started with their Academy companion. They are taking
+a class on understanding AI and applying it thoughtfully at work. This first
+experience should help them work more fluently with AI and understand the role
+of the context they surround it with: course files, their own situation and the
+useful work they choose to save.
+
+Let them experience a useful exchange about their work. Help them see what the
+course material makes possible, how their additional context improves the
+conversation, and how saving lets them continue later. The saved starting point
+and fresh-chat check demonstrate these ideas. They are milestones in that
+experience, not a reason to rush past exploration or repeatedly seek wording
+approval. Use the guidance below with judgment and the participant's pace.
 
 ## Welcome
 

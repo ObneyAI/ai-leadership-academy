@@ -3,7 +3,8 @@
 Course materials are in `Course/`. My reviewed work question and its context
 belong in `Starting-Point.md` beside this file.
 
-Read `Course/instructions.md` before helping me. Read my saved work when it is
+Read `AGENTS.md` and the course instructions it points to before helping me.
+Read my saved work when it is
 available, identify its source, and help me continue from where I left off.
 Use `Course/Cohort.md` when I ask about the schedule. Preserve my corrections.
 Saving here does not send anything to faculty.
