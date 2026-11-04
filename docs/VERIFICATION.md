@@ -21,6 +21,14 @@ Record package checks separately from what a participant has demonstrated.
   symlinks, participant-content rejection and non-overwriting extraction.
   They do not establish that an assistant follows the natural-language protocol.
 
+## Current teaching direction
+
+Justin's later November 3 direction supersedes the earlier personal-question
+entry: start with a brief role/work/learning-hopes introduction, then introduce
+the course and five examples. Session 1 explores a fictional example and saves
+learning. After Session 2, an explicit transition invites personal needs for
+Sessions 3–5. This new sequence has not yet been observed in an app.
+
 ## Participant rehearsal
 
 Use a new extracted folder outside the source checkout. Record the app version,
@@ -28,12 +36,13 @@ account type, date, elapsed time and any facilitator intervention.
 
 | Check | Pass condition | Observed on current version |
 |---|---|---|
-| Open | Assistant reads actual course files and asks one accessible question | Pending |
+| Open | Assistant reads course sources and briefly asks about role, work and learning hopes; waits before overview/menu | Pending |
 | Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases | Pending |
-| Explore | Contributes a useful possibility and develops the idea with the participant before offering to save; honors an explicit save request | Pending |
-| Example choice | “Tell me more about C” briefly explains report consolidation and asks one relevant connection question; respects a fictional-only exploration | Pending |
+| Explore | Shows a small fictional illustration and one context lesson; follows curiosity before offering to save | Pending |
+| Example choice | “Tell me more about C” shows fictional report consolidation without treating it as the participant’s process | Pending |
+| Personal transition | Only an explicit post-Session-2 invitation starts personal-needs exploration; completion, dates and example choice do not | Pending |
 | Review | A correction is reflected before the participant approves | Pending |
-| Save | Approved question is in Starting-Point.md and opens outside chat | Pending |
+| Save | Reviewed exploration is in Starting-Point.md and opens outside chat | Pending |
 | Same-chat attempt | Asking again in the original conversation does not trigger cleanup | Pending |
 | Fresh-chat return | Actual file read, accurate quote and source named | Pending |
 | Confirmation | Participant explicitly confirms new conversation and correct recovery | Pending |
@@ -45,7 +54,7 @@ account type, date, elapsed time and any facilitator intervention.
 
 Keep cleanup pending when permission is denied, approval is absent, the saved
 file is missing, the participant has not opened it, retrieval is incorrect, or
-the conversation is not fresh. Corrected questions require a new recovery check.
+the conversation is not fresh. Corrected notes require a new recovery check.
 
 Test an interruption between updating the entry and deleting the guide. The
 lasting course instructions detect the remaining guide and resume pending work.
@@ -59,6 +68,6 @@ updates must not restore the onboarding guide or reset a participant's entry.
 
 This portable packet cannot independently inspect conversation identity across
 apps. It requires a source-file read and the participant's explicit confirmation
-that this is a new conversation and the question is correct. Do not label that
+that this is a new conversation and the recovered note is correct. Do not label that
 attestation as automatic session verification. If a platform provides stronger
 evidence, record it without assuming the other platform does too.

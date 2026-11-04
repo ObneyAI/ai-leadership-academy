@@ -6,6 +6,6 @@ Session 1 practice guide for Justin’s closing hour.
 
 **Generative AI** can draft a response, such as a paragraph explaining a schedule. An **agentic workflow** can use approved tools to take steps toward a goal. For example, an assistant could open the schedule, read the November 20 entry, then write a preparation note. Check the resulting file yourself.
 
-Pick a recurring frustration, decision or opportunity from your work. Save one question about it in your Academy folder. Open a new conversation, point it to the same folder or attach the saved file, and check what it can actually recover.
+Explore one fictional example from the practice menu. Notice what AI can help with, what context it needs and what you would check. Save useful learning from that exploration in your Academy folder. Open a new conversation, point it to the same folder or attach the saved file, and check what it can actually recover.
 
 [Context Lab](https://context.obney.ai)

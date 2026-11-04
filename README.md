@@ -1,7 +1,7 @@
 # Academy Memory · Cohort 2
 
 A course workspace for the November–December 2026 AI Leadership Academy.
-Participants use their own approved assistant to think through real work,
+Participants use their own approved assistant to explore examples and real work,
 understand how context shapes its help, inspect useful outputs, and carry
 reviewed work across conversations.
 
@@ -17,21 +17,26 @@ Then say:
 
 > Read ACADEMY.md and help me get started.
 
-The welcome offers five practice examples. Say “Tell me more about C” to explore
-project profitability, or bring your own idea. The assistant connects the example
-to your work without treating your selection as a project commitment.
+The assistant first asks briefly about your role, work and hopes for the Academy.
+It then introduces the course and folder, with five fictional practice examples
+inspired by first-cohort work themes. Say “Tell me more about C” to explore
+project profitability. Your choice is an opportunity to learn; it does not
+choose your personal project.
 
-The assistant explores something from your work with you, offers useful ways AI
-might help, and develops the idea through conversation. When a useful starting
-point emerges, it offers to save your reviewed question and context. Open the saved file. Start a new conversation
-with the same folder and say:
+At the end of Session 1, explore a small illustration, see how context affects
+the help, and save useful learning when ready. Open the saved file. Start a new
+conversation with the same folder and say:
 
-> Read ACADEMY.md and tell me what work question I saved.
+> Read ACADEMY.md and remind me what I was exploring.
 
-After you confirm that the new conversation recovered the correct question,
+After you confirm that the new conversation recovered the correct saved work,
 the assistant removes the temporary setup guide and its entry-point section.
-Your question, context and course materials remain. An assistant without file
-write/delete access guides the manual steps and reports the limitation.
+Your exploration, context and course materials remain. An assistant without
+file write/delete access guides manual steps and reports the limitation.
+
+Session 2 adds hands-on practice. After Session 2, an explicit invitation opens
+exploration of your own needs for Sessions 3–5. Completing onboarding does not
+automatically choose or start a personal project.
 
 ## The folder changes as you use it
 
@@ -61,7 +66,7 @@ All participant-facing source lives in [packet/Academy](packet/Academy).
 | `packet/Academy/AGENTS.md` | Lasting companion role: AI fluency, context and learning through work |
 | `packet/Academy/ONBOARDING.md` | Temporary welcome, save, recovery and cleanup steps |
 | `packet/Academy/Course/instructions.md` | Lasting assistant behavior |
-| `packet/Academy/Course/examples.md` | Five fictional A–E examples with questions connecting them to the participant’s work |
+| `packet/Academy/Course/examples.md` | Five fictional A–E examples with small illustrations and context lessons |
 | `packet/Academy/Course/` | Course schedule, actions and Session 1 practice material |
 | `scripts/build.py` | Reproducible ZIP, hash manifest and new rehearsal extraction |
 | `docs/VERIFICATION.md` | Tested boundaries and remaining classroom checks |
@@ -96,7 +101,7 @@ There is no runtime dependency, submodule or automatic sync with that kit.
 | AI Memory Folder | Academy Memory |
 |---|---|
 | General personal assistant kit | Cohort-specific learning workspace |
-| Personal setup interview and About Me note | One reviewed work question and course context |
+| Personal setup interview and About Me note | Reviewed exploration notes, later personal needs, and course context |
 | Claude, ChatGPT and Grok Bot kit variants | One folder packet; Cowork and ChatGPT Work are the initial rehearsal routes |
 | General note-growth guidance | Course continuity with a save/recover completion gate |
 

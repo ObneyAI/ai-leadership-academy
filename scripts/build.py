@@ -36,7 +36,7 @@ def payload(root=ROOT):
     data = {f"Academy/{name}": (source / name).read_bytes() for name in FILES}
     guide = data["Academy/ONBOARDING.md"].decode()
     header = guide.split("---", 2)[1]
-    for field in ("phase: new", "question_reviewed: false", "saved_file_opened: false"):
+    for field in ("phase: new", "note_reviewed: false", "saved_file_opened: false"):
         if field not in header.splitlines():
             raise ValueError("Onboarding source contains participant progress")
     entry = data["Academy/ACADEMY.md"].decode()

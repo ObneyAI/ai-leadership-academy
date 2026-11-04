@@ -10,6 +10,6 @@ The five sessions meet at the Business Report Leadership Academy Training Center
 | Fri Dec 11 | 8:15 a.m. to 12:15 p.m. | Plan implementation |
 | Wed Dec 16 | 8:15 a.m. to 2:30 p.m. | Review the roadmap and commit to action |
 
-Bring the same laptop, access to your approved assistant, and your saved work question back on November 20. Lunch is provided at the first and last sessions.
+Bring the same laptop, access to your approved assistant, and your saved exploration notes back on November 20. Lunch is provided at the first and last sessions.
 
 [Business Report schedule](https://www.brleadershipacademy.com/ai-academy)

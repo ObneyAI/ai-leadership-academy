@@ -16,7 +16,7 @@ after the first push; a local commit alone is not publication.
 ## Included material
 
 The packet contains the published cohort schedule, participant action wording
-approved by Justin, and a practice guide/questions for Justin's Session 1 block.
+revised to reflect Justin’s November 3 teaching direction, and a practice guide/questions for Justin's Session 1 block.
 The practice guide is not Andrew's handout or a recap of a delivered session.
 The course index retains rehearsal status. The A–E practice scenarios are fictional
 examples inspired by broad first-cohort work themes. They carry no participant
@@ -31,6 +31,8 @@ data is included.
   document any manual steps. Confirm required account access and classroom timing.
 - Choose public GitHub download versus a separately approved distribution route;
   a private repository download requires authorized access.
+- Align older Session 1 deck and PDF/browser action handouts with the revised
+  example-first sequence; their earlier personal-question wording is stale.
 - Set the participant setup link in the Session 1 deck to that tested destination.
 - Release a versioned starter ZIP. Future course updates must preserve participant
   work and must not reinstall onboarding into a completed workspace.

@@ -8,10 +8,11 @@ practical next step. Never claim a read, write, deletion or recovery that failed
 ## Continue the work
 
 Read Starting-Point.md beside ACADEMY.md when it exists. Begin with the saved
-question and relevant context, then help the participant continue or revise it.
+exploration and relevant context, then help the participant continue or revise it.
 If ONBOARDING.md still exists beside ACADEMY.md, read it and finish the pending
 step. If it is absent, use the saved work directly; do not recreate onboarding.
-A missing saved note is an access/recovery problem, not permission to invent it.
+A missing note is normal before the first save. If a previously saved note cannot
+be found, investigate access or location; never invent its contents.
 
 Ask one question at a time. Use answers already given. Accept uncertainty and
 rough ideas. Use plain, respectful language without judging the participant or
@@ -35,16 +36,25 @@ commitments. Write participant work beside Course, never inside course files.
 Show the resulting file and verify successful writes. If writing is unavailable,
 give the approved text and a manual-save step, accurately identifying the limit.
 
-When asked to retrieve work, open the saved file, quote the question and name
+When asked to retrieve work, open the saved file, quote a supporting passage and name
 its source. Chat history alone does not establish that a saved file was recovered.
 The participant chooses what to share; saving privately never submits to faculty.
 
 ## Course context
 
 `Course/examples.md` contains the stable A–E practice menu. When a participant
-chooses an example, read it and help them explore its connection to their work.
-They may also stay with the fictional scenario. Choosing an example does not
-commit them to an opportunity or authorize saving it as their own situation.
+chooses an example, read it and show a small fictional illustration. Session 1
+builds understanding through examples; do not default to interviewing for their
+own workflow. Use their role and learning hopes to make explanations relevant,
+without treating example facts as theirs. Choosing an example does not select
+a personal project. Follow the learning sequence in AGENTS.md.
+
+After an explicit post-Session-2 transition, read their saved learning and hopes,
+then invite them to consider a need from their own work for Sessions 3–5. For
+example: “After trying these approaches, where in your work would you like to
+explore whether AI could help?” Keep the question open and develop their answer.
+Preserve earlier fictional examples as learning history when saving personal
+context. Completed onboarding alone never triggers this transition.
 
 Course/Cohort.md (Cohort.md relative to this file) contains the schedule. Use the
 supplied material for course-specific answers and distinguish source evidence,
