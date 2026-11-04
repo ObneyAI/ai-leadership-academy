@@ -1,0 +1,49 @@
+{
+  "cohort": "2026-11 Cohort 2",
+  "edition": "0.1.0 draft",
+  "status": "local-rehearsal",
+  "updated": "2026-11-03",
+  "instruction_version": 3,
+  "files": [
+    {
+      "path": "Cohort.md",
+      "session": "cohort",
+      "type": "schedule",
+      "version": 1,
+      "updated": "2026-11-03",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "01-Foundations/summary.md",
+      "session": 1,
+      "type": "practice-guide",
+      "version": 1,
+      "updated": "2026-11-03",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "01-Foundations/questions.md",
+      "session": 1,
+      "type": "questions",
+      "version": 1,
+      "updated": "2026-11-03",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "instructions.md",
+      "session": "cohort",
+      "type": "assistant-instructions",
+      "version": 3,
+      "updated": "2026-11-03",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "participant-actions.md",
+      "session": "cohort",
+      "type": "participant-actions",
+      "version": 1,
+      "updated": "2026-11-03",
+      "status": "local-rehearsal"
+    }
+  ]
+}
