@@ -31,6 +31,7 @@ account type, date, elapsed time and any facilitator intervention.
 | Open | Assistant reads actual course files and asks one accessible question | Pending |
 | Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases | Pending |
 | Explore | Contributes a useful possibility and develops the idea with the participant before offering to save; honors an explicit save request | Pending |
+| Example choice | “Tell me more about C” briefly explains report consolidation and asks one relevant connection question; respects a fictional-only exploration | Pending |
 | Review | A correction is reflected before the participant approves | Pending |
 | Save | Approved question is in Starting-Point.md and opens outside chat | Pending |
 | Same-chat attempt | Asking again in the original conversation does not trigger cleanup | Pending |

@@ -14,6 +14,7 @@ FILES = (
     "ONBOARDING.md",
     "Course/Cohort.md",
     "Course/instructions.md",
+    "Course/examples.md",
     "Course/participant-actions.md",
     "Course/release-index.json",
     "Course/01-Foundations/summary.md",

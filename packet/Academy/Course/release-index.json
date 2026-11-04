@@ -3,7 +3,7 @@
   "edition": "0.1.1 draft",
   "status": "local-rehearsal",
   "updated": "2026-11-03",
-  "instruction_version": 4,
+  "instruction_version": 5,
   "files": [
     {
       "path": "Cohort.md",
@@ -33,7 +33,7 @@
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
-      "version": 4,
+      "version": 5,
       "updated": "2026-11-03",
       "status": "local-rehearsal"
     },
@@ -41,6 +41,14 @@
       "path": "participant-actions.md",
       "session": "cohort",
       "type": "participant-actions",
+      "version": 1,
+      "updated": "2026-11-03",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "examples.md",
+      "session": "cohort",
+      "type": "fictional-practice-examples",
       "version": 1,
       "updated": "2026-11-03",
       "status": "local-rehearsal"

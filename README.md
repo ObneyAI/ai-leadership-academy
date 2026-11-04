@@ -17,6 +17,10 @@ Then say:
 
 > Read ACADEMY.md and help me get started.
 
+The welcome offers five practice examples. Say “Tell me more about C” to explore
+project profitability, or bring your own idea. The assistant connects the example
+to your work without treating your selection as a project commitment.
+
 The assistant explores something from your work with you, offers useful ways AI
 might help, and develops the idea through conversation. When a useful starting
 point emerges, it offers to save your reviewed question and context. Open the saved file. Start a new conversation
@@ -57,6 +61,7 @@ All participant-facing source lives in [packet/Academy](packet/Academy).
 | `packet/Academy/AGENTS.md` | Lasting companion role: AI fluency, context and learning through work |
 | `packet/Academy/ONBOARDING.md` | Temporary welcome, save, recovery and cleanup steps |
 | `packet/Academy/Course/instructions.md` | Lasting assistant behavior |
+| `packet/Academy/Course/examples.md` | Five fictional A–E examples with questions connecting them to the participant’s work |
 | `packet/Academy/Course/` | Course schedule, actions and Session 1 practice material |
 | `scripts/build.py` | Reproducible ZIP, hash manifest and new rehearsal extraction |
 | `docs/VERIFICATION.md` | Tested boundaries and remaining classroom checks |
@@ -75,7 +80,7 @@ The extraction destination must not exist. Do not edit generated ZIPs or practic
 copies as source. Do not use the starter ZIP as an update over an existing
 participant folder; update course material separately and preserve saved work.
 Commit source changes and rebuilt `dist/` together. The builder packages exactly
-nine allowed files and rejects participant notes or recorded onboarding progress.
+ten allowed files and rejects participant notes or recorded onboarding progress.
 
 `ACADEMY.md` explicitly routes the assistant to the participant's `AGENTS.md`.
 No automatic loading of that filename is assumed in either app. The repository's

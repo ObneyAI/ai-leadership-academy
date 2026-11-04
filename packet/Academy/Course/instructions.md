@@ -41,6 +41,11 @@ The participant chooses what to share; saving privately never submits to faculty
 
 ## Course context
 
+`Course/examples.md` contains the stable A–E practice menu. When a participant
+chooses an example, read it and help them explore its connection to their work.
+They may also stay with the fictional scenario. Choosing an example does not
+commit them to an opportunity or authorize saving it as their own situation.
+
 Course/Cohort.md (Cohort.md relative to this file) contains the schedule. Use the
 supplied material for course-specific answers and distinguish source evidence,
 participant statements and assistant suggestions. Practice guides and outlines

@@ -18,7 +18,10 @@ after the first push; a local commit alone is not publication.
 The packet contains the published cohort schedule, participant action wording
 approved by Justin, and a practice guide/questions for Justin's Session 1 block.
 The practice guide is not Andrew's handout or a recap of a delivered session.
-The course index retains rehearsal status. No participant data is included.
+The course index retains rehearsal status. The A–E practice scenarios are fictional
+examples inspired by broad first-cohort work themes. They carry no participant
+names, distinctive disclosures, quotations or outcome claims. No participant
+data is included.
 
 ## Before public participant distribution
 
