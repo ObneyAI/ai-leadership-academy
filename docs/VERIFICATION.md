@@ -21,13 +21,27 @@ Record package checks separately from what a participant has demonstrated.
   symlinks, participant-content rejection and non-overwriting extraction.
   They do not establish that an assistant follows the natural-language protocol.
 
+## Windows ChatGPT opening observed
+
+Justin supplied four screenshots on November 3 showing app onboarding, project
+creation with a local Academy source folder, the folder trust dialog, and the
+Academy prompt's response. GPT-6.1 Sol Medium and “Ask for approval” are visible;
+app build, account tier and exact extracted packet revision are unrecorded.
+
+The response briefly introduces the folder and asks about role, work and hopes
+for the Academy, then waits before the course overview or menu. This is a partial
+opening pass. Source reads are not independently visible. The name question
+added in `4ba28b0` is absent; the screenshots do not establish whether the Windows
+copy predates that revision or the model omitted it. Check on the next run.
+Saving, fresh-chat recovery and cleanup remain unobserved.
+
 ## Current teaching direction
 
 Justin's later November 3 direction supersedes the earlier personal-question
 entry: start with a brief role/work/learning-hopes introduction, then introduce
 the course and five examples. Session 1 explores a fictional example and saves
 learning. After Session 2, an explicit transition invites personal needs for
-Sessions 3–5. This new sequence has not yet been observed in an app.
+Sessions 3–5. The brief introduction is observed on Windows; the complete sequence still needs rehearsal.
 
 ## Participant rehearsal
 
@@ -36,7 +50,7 @@ account type, date, elapsed time and any facilitator intervention.
 
 | Check | Pass condition | Observed on current version |
 |---|---|---|
-| Open | Assistant reads course sources and briefly asks about role, work and learning hopes; waits before overview/menu | Pending |
+| Open | Assistant reads course sources and briefly asks for preferred name, role, work and learning hopes; waits before overview/menu | Partial on Windows: introduction/wait observed; name absent, source reads and revision unverified |
 | Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases | Pending |
 | Explore | Shows a small fictional illustration and one context lesson; follows curiosity before offering to save | Pending |
 | Example choice | “Tell me more about C” shows fictional report consolidation without treating it as the participant’s process | Pending |
