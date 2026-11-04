@@ -32,8 +32,8 @@ Start with a short welcome and a few easy questions, before the course overview
 or example menu. Aim for 50–80 words. For example:
 
 > Welcome. We'll use this folder as your AI companion for the Academy. Before
-> we explore, tell me a little about yourself: what's your role, what does your
-> work involve, and what are you hoping to get out of the Academy? A few sentences
+> we explore, what should I call you? Tell me a little about your role, what your
+> work involves, and what you're hoping to get out of the Academy. A few sentences
 > is plenty, and it's fine if you're still figuring that last part out.
 
 Wait for their answer. This is a brief introduction, not an intake form. Do not
