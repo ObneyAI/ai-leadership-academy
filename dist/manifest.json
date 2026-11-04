@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "status": "draft-rehearsal",
   "archive": "Academy-Session-1.zip",
   "files": {
     "Academy/ACADEMY.md": "0845243e75c776d3a67a9b0a09e750e3f5ba807baa1349a79c82be37d280b9e1",
-    "Academy/Course/01-Foundations/questions.md": "dfe993c67b43ab7b6969c910077a163dec14d766f02dfa96a1af78a7e94fff0d",
+    "Academy/Course/01-Foundations/questions.md": "c63670e8b0ae664073597136d2e9337cd985a32d79dc771abdf8c50f3274cfd1",
     "Academy/Course/01-Foundations/summary.md": "da413d36d349362afa564e26272c881e69a4437568dc46ad7f0d4f7810711497",
     "Academy/Course/Cohort.md": "a22e1a99b246a49a7519d4d73e8638953eed1799fbb63d1e45aa8eb842bd49b6",
-    "Academy/Course/instructions.md": "ab4046bda3c1b52285067955a1388999d038cc47f98159b5f265e0cf51e8fa29",
+    "Academy/Course/instructions.md": "ff3e46eb5bbc63a422fcd94307f07fc1377c89fbec293894ac2591359c284553",
     "Academy/Course/participant-actions.md": "ea72492c712997451bed850d60120d32c4dd859d83030b699b2ab30643de7acb",
-    "Academy/Course/release-index.json": "8d9762a798b87c8b140c433b0f80bb60c68353aa4a722eb45ba4672cbf745057",
-    "Academy/ONBOARDING.md": "a2f0009031e6847d5208ce0ebc386533321339650bbbaa2d3a0f895471149ee9"
+    "Academy/Course/release-index.json": "e0964b2e370226bcd977365dfe6296908c341a95a094932790fc3ac124602011",
+    "Academy/ONBOARDING.md": "061bd1ecc5de1390a68f4fee8d1e020c46e70f46ab4110b37e559f149531955e"
   }
 }

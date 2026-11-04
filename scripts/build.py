@@ -50,7 +50,7 @@ def payload(root=ROOT):
 
 def manifest(data):
     return {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "status": "draft-rehearsal",
         "archive": ARCHIVE,
         "files": {name: hashlib.sha256(content).hexdigest() for name, content in sorted(data.items())},

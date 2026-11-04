@@ -4,7 +4,7 @@ A course workspace for the November–December 2026 AI Leadership Academy.
 Participants use their own approved assistant to save one real work question
 and recover it in a fresh conversation.
 
-**Version 0.1.0 is a rehearsal draft.** Package integrity is checked; the complete
+**Version 0.1.1 is a rehearsal draft.** Package integrity is checked; the complete
 Cowork and ChatGPT Work learner journeys still need rehearsal. This repository
 is the single authoring home. Extracted folders are practice copies.
 
@@ -16,8 +16,9 @@ Then say:
 
 > Read ACADEMY.md and help me get started.
 
-The assistant asks about something from your work, helps you phrase a question,
-and saves your reviewed wording. Open the saved file. Start a new conversation
+The assistant explores something from your work with you, offers useful ways AI
+might help, and develops the idea through conversation. When a useful starting
+point emerges, it offers to save your reviewed question and context. Open the saved file. Start a new conversation
 with the same folder and say:
 
 > Read ACADEMY.md and tell me what work question I saved.
@@ -64,7 +65,7 @@ With Python 3 installed:
 python3 -m unittest discover -s tests -v
 python3 scripts/build.py
 python3 scripts/build.py --check
-python3 scripts/build.py --extract-to ../academy-c2-rehearsal/v0.1.0
+python3 scripts/build.py --extract-to ../academy-c2-rehearsal/v0.1.1
 ```
 
 The extraction destination must not exist. Do not edit generated ZIPs or practice

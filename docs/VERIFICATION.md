@@ -11,8 +11,10 @@ Record package checks separately from what a participant has demonstrated.
   a shorter opening and one invitation, but it still led with access/saving and
   added a highest-time-or-attention criterion. The current revision explains the
   folder-based Academy project, three uses, the materials actually read and
-  source-supported example questions before inviting an interest. This revised
-  welcome has not yet been retested.
+  source-supported example questions before inviting an interest. Justin approved this welcome after observing it in Cowork on November 3.
+  The subsequent response jumped too quickly to wording approval; v0.1.1 adds
+  exploratory thought partnership before offering to save. That behavior awaits
+  rehearsal.
 - No completed save, fresh-chat recovery or onboarding cleanup has been observed
   in Cowork or ChatGPT Work. Claude Code remains an optional Session 2 route.
 - Automated tests cover package contents, reproducibility, stale output,
@@ -28,6 +30,7 @@ account type, date, elapsed time and any facilitator intervention.
 |---|---|---|
 | Open | Assistant reads actual course files and asks one accessible question | Pending |
 | Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases | Pending |
+| Explore | Contributes a useful possibility and develops the idea with the participant before offering to save; honors an explicit save request | Pending |
 | Review | A correction is reflected before the participant approves | Pending |
 | Save | Approved question is in Starting-Point.md and opens outside chat | Pending |
 | Same-chat attempt | Asking again in the original conversation does not trigger cleanup | Pending |

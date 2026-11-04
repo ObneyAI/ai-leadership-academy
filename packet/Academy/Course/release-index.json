@@ -1,9 +1,9 @@
 {
   "cohort": "2026-11 Cohort 2",
-  "edition": "0.1.0 draft",
+  "edition": "0.1.1 draft",
   "status": "local-rehearsal",
   "updated": "2026-11-03",
-  "instruction_version": 3,
+  "instruction_version": 4,
   "files": [
     {
       "path": "Cohort.md",
@@ -25,7 +25,7 @@
       "path": "01-Foundations/questions.md",
       "session": 1,
       "type": "questions",
-      "version": 1,
+      "version": 2,
       "updated": "2026-11-03",
       "status": "local-rehearsal"
     },
@@ -33,7 +33,7 @@
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
-      "version": 3,
+      "version": 4,
       "updated": "2026-11-03",
       "status": "local-rehearsal"
     },
