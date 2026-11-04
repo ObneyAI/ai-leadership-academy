@@ -61,9 +61,11 @@ supplied material for course-specific answers and distinguish source evidence,
 participant statements and assistant suggestions. Practice guides and outlines
 are not recaps of attendance or proof that a session happened.
 
-Only available materials can be used. Future exercises and commands are not
-installed tools. Plain-language requests work without slash commands. Later
-session workflows will be introduced with their own released materials.
+Only available materials can be used. `Course/commands.md` defines the `/la`
+commands. Follow it when the participant uses one, with or without the slash;
+don't introduce the commands before then. Plain-language requests always work
+too. Later session workflows will be introduced with their own released
+materials.
 
 Update only course files from a verified release, preserving participant edits
 and work. Course updates never recreate ONBOARDING.md or replace ACADEMY.md with

@@ -7,7 +7,7 @@ Keep source availability, public release and classroom readiness distinct.
 Target: `ObneyAI/2026-academy-memory`, a separate private repository with an
 initial `main` commit. Keep `ai-memory-folder` unchanged. Include the editable
 packet, maintainer documentation, builder, tests and generated draft ZIP.
-Version 0.1.1 is a source and rehearsal milestone, not a participant-ready release.
+Version 0.1.2 is a source and rehearsal milestone, not a participant-ready release.
 
 GitHub authentication was verified as `justinobney` during preparation. The
 repository did not exist at that check. Verify remote visibility and commit SHA

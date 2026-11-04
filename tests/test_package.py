@@ -26,7 +26,7 @@ class PackageTests(unittest.TestCase):
         self.assertEqual(first, (self.root / "dist" / builder.ARCHIVE).read_bytes())
         builder.check(self.root)
         with zipfile.ZipFile(self.root / "dist" / builder.ARCHIVE) as archive:
-            self.assertEqual(10, len(archive.namelist()))
+            self.assertEqual(11, len(archive.namelist()))
             self.assertIn("Academy/AGENTS.md", archive.namelist())
             self.assertIn("Academy/Course/examples.md", archive.namelist())
 

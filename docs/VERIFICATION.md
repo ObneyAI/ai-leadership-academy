@@ -21,6 +21,16 @@ Record package checks separately from what a participant has demonstrated.
   symlinks, participant-content rejection and non-overwriting extraction.
   They do not establish that an assistant follows the natural-language protocol.
 
+## `/la` commands, v0.1.2 (November 4)
+
+`Course/commands.md` ships in the Session 1 ZIP but stays unused: the assistant
+doesn't mention the commands until the participant uses one or says a facilitator
+introduced them. Session 1 still teaches plain lines only. The aim is to teach
+`/la start`, `/la save` and `/la wrap` in Session 2. None has run in Cowork or
+ChatGPT Work. Check there that a message starting with "/" reaches the assistant
+as text, that `la start` works without the slash, and that a cold `/la start` in
+a new chat finds `AGENTS.md` without the opening line.
+
 ## Windows ChatGPT opening observed
 
 Justin supplied four screenshots on November 3 showing app onboarding, project

@@ -59,6 +59,9 @@ Keep human review and the participant's judgment central.
 Read `Course/instructions.md` for source use, saved-work review, sharing and
 updates. It is the detailed operating policy; keep those rules there.
 
+When the participant types `/la` or `la` followed by a word, follow
+`Course/commands.md`.
+
 Read `ONBOARDING.md` while it exists for the first conversation, exploration,
 save/recovery check and exact cleanup conditions. It is temporary. This file
 remains after onboarding and continues to guide the companion.

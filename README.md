@@ -5,7 +5,7 @@ Participants use their own approved assistant to explore examples and real work,
 understand how context shapes its help, inspect useful outputs, and carry
 reviewed work across conversations.
 
-**Version 0.1.1 is a rehearsal draft.** Package integrity is checked; the complete
+**Version 0.1.2 is a rehearsal draft.** Package integrity is checked; the complete
 Cowork and ChatGPT Work learner journeys still need rehearsal. This repository
 is the single authoring home. Extracted folders are practice copies.
 
@@ -66,6 +66,7 @@ All participant-facing source lives in [packet/Academy](packet/Academy).
 | `packet/Academy/AGENTS.md` | Lasting companion role: AI fluency, context and learning through work |
 | `packet/Academy/ONBOARDING.md` | Temporary welcome, save, recovery and cleanup steps |
 | `packet/Academy/Course/instructions.md` | Lasting assistant behavior |
+| `packet/Academy/Course/commands.md` | The `/la start`, `/la save` and `/la wrap` routines; shipped unused until a facilitator introduces them |
 | `packet/Academy/Course/examples.md` | Five fictional A–E examples with small illustrations and context lessons |
 | `packet/Academy/Course/` | Course schedule, actions and Session 1 practice material |
 | `scripts/build.py` | Reproducible ZIP, hash manifest and new rehearsal extraction |
@@ -78,14 +79,14 @@ With Python 3 installed:
 python3 -m unittest discover -s tests -v
 python3 scripts/build.py
 python3 scripts/build.py --check
-python3 scripts/build.py --extract-to ../academy-c2-rehearsal/v0.1.1
+python3 scripts/build.py --extract-to ../academy-c2-rehearsal/v0.1.2
 ```
 
 The extraction destination must not exist. Do not edit generated ZIPs or practice
 copies as source. Do not use the starter ZIP as an update over an existing
 participant folder; update course material separately and preserve saved work.
 Commit source changes and rebuilt `dist/` together. The builder packages exactly
-ten allowed files and rejects participant notes or recorded onboarding progress.
+eleven allowed files and rejects participant notes or recorded onboarding progress.
 
 Later-session material can be drafted in source before it is released. Each
 draft file needs an entry in `release-index.json` with `"status": "draft"`. The
