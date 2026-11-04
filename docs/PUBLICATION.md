@@ -1,17 +1,22 @@
-# Initial publication
+# Publication status
 
 Keep source availability, public release and classroom readiness distinct.
 
-## Initial GitHub scope
+## Source and download
 
-Target: `ObneyAI/2026-academy-memory`, a separate private repository with an
-initial `main` commit. Keep `ai-memory-folder` unchanged. Include the editable
-packet, maintainer documentation, builder, tests and generated draft ZIP.
-Version 0.1.2 is a source and rehearsal milestone, not a participant-ready release.
+`ObneyAI/2026-academy-memory` is a separate private repository. It contains the
+editable packet, maintainer documentation, builder, tests and generated ZIP.
+The source remains independent of `ai-memory-folder`.
 
-GitHub authentication was verified as `justinobney` during preparation. The
-repository did not exist at that check. Verify remote visibility and commit SHA
-after the first push; a local commit alone is not publication.
+The v0.1.2 ZIP is publicly available through the approved
+[Session 1 setup page](https://obney-academy-c2-s1.pages.dev/setup).
+On November 4, the hosted ZIP matched the source archive byte for byte.
+All eleven package tests and the build check passed. The complete participant
+journey still needs rehearsal.
+
+The Session 2 and Session 3 source drafts are pushed to the private repository.
+Their release-index status remains `draft`. The builder excludes them from the
+Session 1 ZIP. Pushing source does not release these drafts to participants.
 
 ## Included material
 
@@ -23,18 +28,13 @@ examples inspired by broad first-cohort work themes. They carry no participant
 names, distinctive disclosures, quotations or outcome claims. No participant
 data is included.
 
-## Before public participant distribution
+## Remaining classroom checks
 
-- Confirm the exact packet is approved for public release. Public access was
-  still open in the course preparation record when this draft was assembled.
 - Complete the Cowork and ChatGPT Work save/recovery/cleanup rehearsals and
   document any manual steps. Confirm required account access and classroom timing.
-- Choose public GitHub download versus a separately approved distribution route;
-  a private repository download requires authorized access.
-- Align older Session 1 deck and PDF/browser action handouts with the revised
-  example-first sequence; their earlier personal-question wording is stale.
-- Set the participant setup link in the Session 1 deck to that tested destination.
-- Release a versioned starter ZIP. Future course updates must preserve participant
+- Test the setup-page download and extraction on a participant account.
+- Rehearse the `/la` commands before introducing them in Session 2.
+- Review and release later-session material separately. Future course updates must preserve participant
   work and must not reinstall onboarding into a completed workspace.
 
 Andrew's handout, participant introduction recordings and prior participant
