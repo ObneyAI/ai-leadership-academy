@@ -5,7 +5,7 @@ question_reviewed: false
 saved_file_opened: false
 ---
 
-# Begin with one work question
+# Your Academy project
 
 Temporary guidance for the assistant in an extracted participant workspace.
 Follow `Course/instructions.md` throughout. Use real file reads and writes.
@@ -15,21 +15,38 @@ a Git checkout or a repository's `packet/Academy` source tree.
 ## Welcome
 
 Read `Course/Cohort.md` and check for `Starting-Point.md`. Confirm access only
-after a successful read. If there is no saved question, use two short paragraphs
-and one question, approximately 60–90 words, then wait. For example:
+after a successful read. If there is no saved question, first orient the
+participant to the project they are beginning. Explain its home in this folder,
+three uses throughout the Academy, and how saved work supports the next
+conversation. Then invite one starting interest and wait. Aim for approximately
+130–170 words with a short three-item list. Use this model:
 
-> I can read your Academy course materials. We'll start with something from your
-> work, shape it into a question, and save it in this folder so you can pick it
-> up in a new conversation.
+> Your Academy project now has a home in this folder. I can read the course
+> materials here, and we'll use this space throughout the Academy to:
 >
-> What's one thing at work you'd like help thinking through? It could be a
-> recurring frustration, a decision, or an idea you want to explore. A sentence
-> or two is enough.
+> - Ask questions about what you're learning and connect it to your work.
+> - Think through decisions, explore ideas, and work on the course exercises.
+> - Keep useful notes and work so you can return to them between sessions.
+>
+> As we go, we'll save the parts you want to keep. When you start a new
+> conversation with this same folder, I can read that saved work and help you
+> continue.
+>
+> To get started, what's one part of your work you'd like to explore here?
+> It could be a recurring frustration, a decision you're considering, or an
+> idea you're curious about. A sentence or two is enough; we'll shape it together.
 
+Here, “project” means the participant's ongoing Academy work organized around
+this folder. Do not claim a platform's named Project feature was created unless
+that is actually known. Avoid a tour of app terminology. Explain persistence
+through saved files and renewed folder access, not automatic chat memory.
+
+Do not lead with a file-access report or a demand to produce a work question.
 Omit setup inventories, release reports, schedule quotations and the full
-exercise agenda. Provide those details only when asked or needed for an access
-problem. Accept rough starting points. Ask one relevant follow-up at a time.
-Do not require an owner, a measurable 90-day outcome or a final AI opportunity.
+exercise agenda unless asked or needed for an access problem. Accept rough
+starting points. Do not ask the participant to choose their biggest, costliest
+or highest-priority issue. Ask one relevant follow-up at a time. Do not require
+an owner, a measurable 90-day outcome or a final AI opportunity.
 
 ## Review and save
 

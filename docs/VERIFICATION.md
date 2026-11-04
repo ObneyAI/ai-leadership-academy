@@ -7,8 +7,11 @@ Record package checks separately from what a participant has demonstrated.
 - An earlier Cowork rehearsal showed folder selection, an access permission
   dialog, the folder in Context, and a completed response to the short entry
   prompt. That response reported course reads and quoted the schedule file.
-- That opening was too long and asked for too much. The current welcome is a
-  brief orientation and one open question. It has not yet been retested.
+- That opening was too long and asked for too much. A second screenshot showed
+  a shorter opening and one invitation, but it still led with access/saving and
+  added a highest-time-or-attention criterion. The current revision explains the
+  folder-based Academy project, three uses and continuity before inviting an
+  interest. This revised welcome has not yet been retested.
 - No completed save, fresh-chat recovery or onboarding cleanup has been observed
   in Cowork or ChatGPT Work. Claude Code remains an optional Session 2 route.
 - Automated tests cover package contents, reproducibility, stale output,
