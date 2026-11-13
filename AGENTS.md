@@ -13,6 +13,11 @@ Keep this independent of ObneyAI/ai-memory-folder. It is inspired by that kit's
 owned-file memory and temporary setup pattern; it has its own scope and history.
 Do not import its personal profile interview, runtime adapters or growth rules.
 
+This repository is public and `main` is what participants' assistants read for
+course updates. Keep drafts on branches. Commit nothing private: no participant
+data, restricted recordings, credentials, or faculty material without the
+owner's agreement to public release.
+
 Before publishing: run the package tests and build check; inspect the tracked
 file list for participant content. Track platform rehearsal separately from
 automated package checks. Preserve public-release approval status in docs.

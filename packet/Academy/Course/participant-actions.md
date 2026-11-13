@@ -9,6 +9,10 @@ Use these actions to carry your learning into the next session.
 
 ## During Session 2
 
+Before you begin, ask your assistant: “Check for Academy course updates.” It
+brings new course material into your `Course` folder and leaves your own notes
+as they are.
+
 3. **Use AI to think it through.** Explore ideas, ask questions and examine assumptions through the session's practice.
 4. **Build something useful and check it.** Work through the hands-on exercise, inspect the first version, and verify what it does.
 

@@ -1,9 +1,15 @@
 {
   "cohort": "2026-11 Cohort 2",
-  "edition": "0.1.2 draft",
+  "edition": "0.1.3 draft",
   "status": "local-rehearsal",
-  "updated": "2026-11-04",
-  "instruction_version": 7,
+  "updated": "2026-11-13",
+  "instruction_version": 8,
+  "source": {
+    "repository": "https://github.com/ObneyAI/2026-academy-memory",
+    "branch": "main",
+    "index": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/release-index.json",
+    "files": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/"
+  },
   "files": [
     {
       "path": "Cohort.md",
@@ -33,24 +39,24 @@
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
-      "version": 7,
-      "updated": "2026-11-04",
+      "version": 8,
+      "updated": "2026-11-13",
       "status": "local-rehearsal"
     },
     {
       "path": "commands.md",
       "session": "cohort",
       "type": "assistant-commands",
-      "version": 1,
-      "updated": "2026-11-04",
+      "version": 2,
+      "updated": "2026-11-13",
       "status": "local-rehearsal"
     },
     {
       "path": "participant-actions.md",
       "session": "cohort",
       "type": "participant-actions",
-      "version": 2,
-      "updated": "2026-11-03",
+      "version": 3,
+      "updated": "2026-11-13",
       "status": "local-rehearsal"
     },
     {

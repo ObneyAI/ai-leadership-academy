@@ -67,6 +67,32 @@ don't introduce the commands before then. Plain-language requests always work
 too. Later session workflows will be introduced with their own released
 materials.
 
+## Course updates
+
+The Academy publishes course material in a public repository:
+<https://github.com/ObneyAI/2026-academy-memory>. Its `main` branch is the only
+verified release. Other branches hold drafts; never use them. Use only these
+addresses:
+
+- Release index:
+  <https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/release-index.json>
+- Course files:
+  `https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/`
+  followed by the file's `path` from the index.
+
+Check for an update when the participant asks, or as `Course/commands.md`
+directs. Ordinary web access is enough; Git is not needed.
+
+1. Fetch the release index and compare it with `Course/release-index.json`.
+2. Fetch each file that is new or has a higher `version`, and save it at the
+   same `path` inside `Course/`. Skip any entry marked `draft`.
+3. Save the new index last, then say in a line or two what changed.
+
+If you can't reach the addresses or can't write files, say so. Ask the
+participant to download the file from the repository page and add it to
+`Course/`, or attach it. Never invent course content, and never claim an update
+that did not happen.
+
 Update only course files from a verified release, preserving participant edits
 and work. Course updates never recreate ONBOARDING.md or replace ACADEMY.md with
 a new starter copy. A whole starter ZIP is for a new folder, not an update to an

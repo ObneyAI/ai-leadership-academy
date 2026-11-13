@@ -31,6 +31,17 @@ ChatGPT Work. Check there that a message starting with "/" reaches the assistant
 as text, that `la start` works without the slash, and that a cold `/la start` in
 a new chat finds `AGENTS.md` without the opening line.
 
+## Course update route, v0.1.3 (November 13)
+
+`Course/instructions.md` names the public repository's `main` branch as the
+verified release and gives web addresses for the index and files. `/la start`
+checks it. Package tests cover the packaging only. No assistant has fetched an
+update, on any platform. Check on each offered assistant that it can reach the
+addresses, saves files only inside `Course/`, skips draft entries, leaves
+participant files and completed onboarding alone, and reports a failed fetch
+plainly instead of inventing content. The addresses return nothing until the
+repository is public.
+
 ## Windows ChatGPT opening observed
 
 Justin supplied four screenshots on November 3 showing app onboarding, project

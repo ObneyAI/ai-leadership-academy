@@ -5,7 +5,7 @@ Participants use their own approved assistant to explore examples and real work,
 understand how context shapes its help, inspect useful outputs, and carry
 reviewed work across conversations.
 
-**Version 0.1.2 is a rehearsal draft.** Package integrity is checked; the complete
+**Version 0.1.3 is a rehearsal draft.** Package integrity is checked; the complete
 Cowork and ChatGPT Work learner journeys still need rehearsal. This repository
 is the single authoring home. Extracted folders are practice copies.
 
@@ -71,7 +71,7 @@ All participant-facing source lives in [packet/Academy](packet/Academy).
 | `packet/Academy/Course/` | Course schedule, actions and Session 1 practice material |
 | `scripts/build.py` | Reproducible ZIP, hash manifest and new rehearsal extraction |
 | `docs/VERIFICATION.md` | Tested boundaries and remaining classroom checks |
-| `docs/PUBLICATION.md` | Initial GitHub scope and public-release work |
+| `docs/PUBLICATION.md` | What is public, the release route and remaining release work |
 
 With Python 3 installed:
 
@@ -79,7 +79,7 @@ With Python 3 installed:
 python3 -m unittest discover -s tests -v
 python3 scripts/build.py
 python3 scripts/build.py --check
-python3 scripts/build.py --extract-to ../academy-c2-rehearsal/v0.1.2
+python3 scripts/build.py --extract-to ../academy-c2-rehearsal/v0.1.3
 ```
 
 The extraction destination must not exist. Do not edit generated ZIPs or practice
@@ -88,12 +88,25 @@ participant folder; update course material separately and preserve saved work.
 Commit source changes and rebuilt `dist/` together. The builder packages exactly
 eleven allowed files and rejects participant notes or recorded onboarding progress.
 
-Later-session material can be drafted in source before it is released. Each
-draft file needs an entry in `release-index.json` with `"status": "draft"`. The
-builder leaves draft files and their index entries out of the Session 1 ZIP, so
-the ZIP and manifest do not change, and it rejects any file the index doesn't
-record. `Course/02-Applications/` is a Session 2 draft. `Course/03-Opportunities/`
-is an illustration of Session 3 material until Tammy and Beverly supply theirs.
+## Releases and drafts
+
+This repository is public, and `main` is the release. A participant's assistant
+reads `packet/Academy/Course/release-index.json` on `main` and fetches new or
+changed course files from the same folder, as `Course/instructions.md` in the
+packet describes. Merging to `main` and pushing therefore publishes to every
+participant folder that checks for updates.
+
+- Keep nothing private here: no participant data, no restricted recordings, and
+  no faculty material without the owner's agreement to public release.
+- Draft later-session material on a branch, not on `main`. The Session 2 draft
+  and the Session 3 illustration are on `draft/sessions-2-3`.
+- Each draft file still needs an entry in `release-index.json` with
+  `"status": "draft"`. The builder leaves draft files and their index entries
+  out of the Session 1 ZIP and rejects any file the index doesn't record.
+- To release a file, set its status, raise its `version`, and merge to `main`.
+  The builder currently accepts only the eleven Session 1 files plus drafts, so
+  the first later-session release needs a builder change. See
+  [docs/PUBLICATION.md](docs/PUBLICATION.md).
 
 `ACADEMY.md` explicitly routes the assistant to the participant's `AGENTS.md`.
 No automatic loading of that filename is assumed in either app. The repository's

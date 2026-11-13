@@ -29,10 +29,12 @@ For the first minutes of a session, or when the participant sits down to work.
 
 1. If `ONBOARDING.md` exists, the Session 1 setup isn't finished. Say so in one
    line, then continue its current step instead.
-2. Check `Course/Cohort.md` for today's session. Read `Course/release-index.json`
-   and name any course material for that session. If the participant mentions
-   material that isn't in the folder, say it isn't there yet and ask them to
-   attach it. Never invent course content.
+2. Check `Course/Cohort.md` for today's session. Check for a course update as
+   `Course/instructions.md` describes, and bring in any new released material.
+   Then read `Course/release-index.json` and name any course material for that
+   session. If the participant mentions material that still isn't in the
+   folder, say it isn't there yet and ask them to attach it. Never invent
+   course content.
 3. Read `Starting-Point.md` and the most recent note in `Session-Notes/`. Recap
    in two or three sentences and name the file you read.
 4. Ask one warm-up question about what they tried or noticed since then. Ask a

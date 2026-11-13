@@ -68,7 +68,7 @@ def payload(root=ROOT):
 
 def manifest(data):
     return {
-        "version": "0.1.2",
+        "version": "0.1.3",
         "status": "draft-rehearsal",
         "archive": ARCHIVE,
         "files": {name: hashlib.sha256(content).hexdigest() for name, content in sorted(data.items())},
