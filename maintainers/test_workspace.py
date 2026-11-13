@@ -15,7 +15,7 @@ INDEX = "Course/release-index.json"
 ENTRY = ("ACADEMY.md", "AGENTS.md", "ONBOARDING.md")
 REPO = "ObneyAI/ai-leadership-academy"
 RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
-PARTICIPANT = ("Starting-Point.md", "Session-Notes/", "Builds/", "AI Opportunities/", "Notes/", "Personal/")
+PARTICIPANT = ("Starting-Point.md", "Session-Notes/", "Session-Notes.md", "Builds/", "AI Opportunities/", "Notes/", "Personal/")
 
 
 def git(*args):

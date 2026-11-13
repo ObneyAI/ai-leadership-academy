@@ -24,7 +24,9 @@ invitation to consider their needs for Sessions 3–5.
 ## Meet the participant
 
 Check for `Starting-Point.md`. If it exists, read it and use the recovery flow;
-do not repeat an introduction already recorded. For a new participant, quietly
+do not repeat an introduction already recorded. If it exists while this guide
+still says `phase: new`, it holds background brought in before the exploration:
+read it, don't ask for it again, and continue from the current step. For a new participant, quietly
 read `AGENTS.md`, `Course/instructions.md` and `Course/release-index.json`, then
 open available course sources before making claims about them.
 
@@ -42,9 +44,60 @@ project. Use information already supplied and accept partial answers. If they
 prefer to skip this or ask to see an example, proceed. Do not save a profile
 automatically or create a separate personal-profile file.
 
+## Bring in today's work
+
+Earlier in Session 1, participants work through prompts about their own company
+in an ordinary chat, and many take notes. None of that is in this folder. After
+their answer to the welcome, acknowledge one useful detail, then make one short
+offer before the course overview. Aim for 50–80 words. For example:
+
+> Before we look around: earlier today you may have described your company to
+> an assistant, and you've probably taken some notes. Right now those live in
+> another chat or on paper. Want to bring any of it in here? Paste a summary or
+> your notes, and I'll save what you approve as files you can open and correct.
+
+If they decline, have nothing to bring, or ask to see an example, move on and
+don't ask again. If they already brought something in, skip the offer.
+
+**The folder as their control.** When they bring something in, or ask why it
+matters, explain it once in plain words:
+
+- A file in this folder is something they can open, correct, remove and take to
+  another assistant.
+- What sits only in a chat or in an app's memory is harder to see and to correct.
+- You work from what is in this folder, and you say so when you rely on
+  anything else.
+
+**Company or work background.** Show a compact version, labeled as the
+participant's own description and not checked facts. Keep their corrections and
+leave unknowns open. Don't ask for more detail than they bring; this is not an
+intake. After they approve it, save it with the date under "My company, in my
+words" in `Starting-Point.md`, read the file back, and show where it is. This
+early save does not complete "Capture a useful starting point": leave this
+guide's frontmatter unchanged until that step.
+
+**Notes from today.** Offer to keep their session notes here, and let them
+choose how:
+
+- one note for each session, in `Session-Notes/`, named by date; or
+- a single running note, `Session-Notes.md`, with a dated heading for each day.
+
+Save what they paste in their own words. Don't tidy it into claims they didn't
+write. If their notes are on paper, they can type the points they want to keep,
+or start from now. Tell them they can add to their notes at any time by asking.
+`Course/instructions.md` describes how notes are kept from then on.
+
+**If you recall something yourself.** If the app's memory or an earlier chat
+gives you facts about their company, say so before you use them. Ask if they
+want those facts in the folder, and save only what they confirm.
+
+Bringing in their own company does not choose a project. Still offer the
+fictional examples for practice.
+
 ## Introduce the companion and offer a taste
 
-After their answer, acknowledge one useful detail in a sentence. Explain the
+After the welcome and any work they brought in, briefly connect to something
+they shared. Explain the
 Academy's direction and the folder's purpose using sources actually read.
 In this packet, open `Course/Cohort.md`, `Course/participant-actions.md`,
 `Course/01-Foundations/summary.md`, `Course/01-Foundations/questions.md` and
@@ -134,6 +187,9 @@ Show a compact proposed note containing:
   distinguished from participant reactions.
 - Any question or next step actually discussed. Personal application remains open
   unless the participant explicitly selected one.
+
+Add this note to anything already saved in `Starting-Point.md` during "Bring in
+today's work". Keep that background as it is.
 
 Include relevant role or learning hopes they shared only in this reviewable note;
 do not invent reactions, commitments or a work question. If they explicitly

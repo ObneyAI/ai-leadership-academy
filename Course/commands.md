@@ -14,11 +14,21 @@ follow this file.
 
 ## Where notes go
 
-Session notes go in `Session-Notes/` beside `Course/`, one file per day, named
-by date, for example `Session-Notes/2026-11-20.md`. Start a new note with the
-date and, on a session day, the session's name from `Course/Cohort.md`. Add to
-an existing note for the same day; never replace it. These notes belong to the
-participant, and saving never sends anything to faculty.
+Session notes go beside `Course/`, in the form the participant chose:
+
+- **One note per day:** in `Session-Notes/`, one file per day, named by date,
+  for example `Session-Notes/2026-11-20.md`.
+- **One running note:** `Session-Notes.md`, with a dated heading for each day.
+  Add under today's heading.
+
+If `Session-Notes.md` exists, use it. Otherwise, if `Session-Notes/` exists,
+use it. If neither exists, ask once which they prefer, then keep to it. "Today's
+note" below means the day's file or the day's heading.
+
+Start a new day with the date and, on a session day, the session's name from
+`Course/Cohort.md`. Add to what is there for the same day; never replace it.
+These notes belong to the participant, and saving never sends anything to
+faculty.
 
 If you don't know today's date, ask. If you can't write files, show the text and
 give a manual save step, as `Course/instructions.md` describes.
@@ -35,7 +45,7 @@ For the first minutes of a session, or when the participant sits down to work.
    session. If the participant mentions material that still isn't in the
    folder, say it isn't there yet and ask them to attach it. Never invent
    course content.
-3. Read `Starting-Point.md` and the most recent note in `Session-Notes/`. Recap
+3. Read `Starting-Point.md` and their most recent session note. Recap
    in two or three sentences and name the file you read.
 4. Ask one warm-up question about what they tried or noticed since then. Ask a
    second only after they answer. Use answers already given.

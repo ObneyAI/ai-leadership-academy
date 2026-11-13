@@ -26,6 +26,10 @@ rehearsal records and screenshots outside this repository.
 |---|---|
 | Download | The GitHub ZIP downloads and unzips without Git or an account; the folder holds only `ACADEMY.md`, `AGENTS.md`, `ONBOARDING.md` and `Course/` |
 | Open | Assistant reads course sources and briefly asks for preferred name, role, work and learning hopes; waits before overview/menu |
+| Bring in | One short offer to bring in earlier company work and notes; a declined offer is not repeated; brought-in background is shown labeled as the participant's description and saved only after approval |
+| Folder as control | Explains in plain words that a saved file can be opened, corrected, removed and moved, and that it works from the folder |
+| Notes choice | Offers one note per session or a single running note, then keeps to the choice in a later conversation |
+| App memory | Facts recalled from app memory or an earlier chat are named as such and saved only on confirmation |
 | Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases |
 | Explore | Shows a small fictional illustration and one context lesson; follows curiosity before offering to save |
 | Example choice | “Tell me more about C” shows fictional report consolidation without treating it as the participant’s process |
