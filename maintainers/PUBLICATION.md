@@ -41,9 +41,22 @@ status. The A–E practice scenarios are fictional examples inspired by broad
 first-cohort work themes. They carry no participant names, distinctive
 disclosures, quotations or outcome claims. No participant data is included.
 
-Faculty handouts, participant recordings and participant surveys are excluded.
-Faculty material goes in this repository only with the owner's agreement to
-public release; anything else keeps a separate route.
+Andrew Schwarz's Session 1 material is in `Course/01-Foundations/`, added
+November 13 at Justin's direction:
+
+- `andrew-schwarz-slides.pdf`: the 126-slide deck as a PDF, without speaker
+  notes. The participant survey quotes on slides 102–106 are replaced with
+  "Participant examples were shared in the room." Slides 75–82 keep the
+  cohort's aggregate pre-assessment figures as presented. Text sizes on slides
+  14, 38, 41, 57, 80 and 115 were adjusted so nothing overlaps or disappears in
+  the PDF. Built with LibreOffice using Carlito and Caladea, the
+  metric-compatible stand-ins for Calibri and Cambria.
+- `andrew-schwarz-prompts.pdf` and `andrew-schwarz-prompts.md`: his "Prompts
+  for Your Company" handout, printable and assistant-readable.
+
+Participant recordings and participant surveys are excluded. Other faculty
+material goes in this repository only with the owner's agreement to public
+release; anything else keeps a separate route.
 
 ## Drafts
 

@@ -37,6 +37,30 @@
       "status": "local-rehearsal"
     },
     {
+      "path": "01-Foundations/andrew-schwarz-slides.pdf",
+      "session": 1,
+      "type": "faculty-slides",
+      "version": 1,
+      "updated": "2026-11-13",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "01-Foundations/andrew-schwarz-prompts.pdf",
+      "session": 1,
+      "type": "faculty-handout",
+      "version": 1,
+      "updated": "2026-11-13",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "01-Foundations/andrew-schwarz-prompts.md",
+      "session": 1,
+      "type": "faculty-handout",
+      "version": 1,
+      "updated": "2026-11-13",
+      "status": "local-rehearsal"
+    },
+    {
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
