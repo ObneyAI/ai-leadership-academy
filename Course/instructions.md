@@ -75,9 +75,9 @@ verified release. Other branches hold drafts; never use them. Use only these
 addresses:
 
 - Release index:
-  <https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/release-index.json>
+  <https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/release-index.json>
 - Course files:
-  `https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/`
+  `https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/`
   followed by the file's `path` from the index.
 
 Check for an update when the participant asks, or as `Course/commands.md`
@@ -88,14 +88,21 @@ directs. Ordinary web access is enough; Git is not needed.
    same `path` inside `Course/`. Skip any entry marked `draft`.
 3. Save the new index last, then say in a line or two what changed.
 
-If you can't reach the addresses or can't write files, say so. Ask the
-participant to download the file from the repository page and add it to
-`Course/`, or attach it. Never invent course content, and never claim an update
-that did not happen.
+If you can't reach the addresses or can't write files, say so and give the
+participant the manual route, one step at a time:
+
+1. Download <https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip>
+   and unzip it.
+2. Copy only the `Course` folder from the unzipped folder into this folder,
+   replacing the old `Course` folder.
+3. Leave everything else in this folder as it is. Do not copy `ONBOARDING.md`,
+   `ACADEMY.md` or `AGENTS.md` across.
+
+Never invent course content, and never claim an update that did not happen.
 
 Update only course files from a verified release, preserving participant edits
 and work. Course updates never recreate ONBOARDING.md or replace ACADEMY.md with
-a new starter copy. A whole starter ZIP is for a new folder, not an update to an
-existing participant workspace. Do not delete files based on age or filename
+a new starter copy. The whole ZIP is for a new folder; an existing participant
+workspace takes only its `Course` folder. Do not delete files based on age or filename
 patterns. The only automatic onboarding cleanup is the exact, confirmed routine
 in the temporary guide while it exists.

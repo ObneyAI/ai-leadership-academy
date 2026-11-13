@@ -1,131 +1,39 @@
-# Academy Memory · Cohort 2
+# AI Leadership Academy · Cohort 2 workspace
 
-A course workspace for the November–December 2026 AI Leadership Academy.
-Participants use their own approved assistant to explore examples and real work,
-understand how context shapes its help, inspect useful outputs, and carry
-reviewed work across conversations.
+A folder you give to your approved AI assistant for the November–December 2026
+AI Leadership Academy. It holds the course material and a place for your own
+notes. You do not need Git or a GitHub account.
 
-**Version 0.1.3 is a rehearsal draft.** Package integrity is checked; the complete
-Cowork and ChatGPT Work learner journeys still need rehearsal. This repository
-is the single authoring home. Extracted folders are practice copies.
+## Set up
 
-## Try the packet
+1. [Download the ZIP](https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip) and unzip it.
+2. Move the unzipped folder somewhere you will find it again. You can rename it.
+3. Select that folder in your assistant, then say:
 
-Use the [Session 1 ZIP](dist/Academy-Session-1.zip) in a new location.
-Unzip it and select the resulting **Academy** folder in your approved assistant.
-Then say:
+   > Read ACADEMY.md and help me get started.
 
-> Read ACADEMY.md and help me get started.
+## Get new course material
 
-The assistant first asks briefly about your role, work and hopes for the Academy.
-It then introduces the course and folder, with five fictional practice examples
-inspired by first-cohort work themes. Say “Tell me more about C” to explore
-project profitability. Your choice is an opportunity to learn; it does not
-choose your personal project.
+Ask your assistant:
 
-At the end of Session 1, explore a small illustration, see how context affects
-the help, and save useful learning when ready. Open the saved file. Start a new
-conversation with the same folder and say:
+> Check for Academy course updates.
 
-> Remind me what I was exploring.
+It reads this page's `main` branch and brings new files into your `Course`
+folder. Your own notes are not changed.
 
-After you confirm that the new conversation recovered the correct saved work,
-the assistant removes the temporary setup guide and its entry-point section.
-Your exploration, context and course materials remain. An assistant without
-file write/delete access guides manual steps and reports the limitation.
+If your assistant can't do that:
 
-Session 2 adds hands-on practice. After Session 2, an explicit invitation opens
-exploration of your own needs for Sessions 3–5. Completing onboarding does not
-automatically choose or start a personal project.
+1. [Download the ZIP](https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip) again and unzip it.
+2. Copy only its `Course` folder into your Academy folder, replacing the old
+   `Course` folder.
+3. Leave everything else in your folder as it is.
 
-## The folder changes as you use it
+## What is yours
 
-Only the participant's extracted copy completes and prunes onboarding.
+`Course/` belongs to the Academy. Everything else you save in the folder is
+yours. Saving never sends anything to faculty.
 
-```text
-At the start                         After confirmed recovery
-Academy/                             Academy/
-  ACADEMY.md                           ACADEMY.md
-  AGENTS.md                            AGENTS.md
-  ONBOARDING.md                        Starting-Point.md
-  Course/                              Course/
-```
+## For maintainers
 
-The source template retains `ONBOARDING.md` for the next participant. The
-completion gate is described in [the onboarding source](packet/Academy/ONBOARDING.md).
-Fresh-chat identity is confirmed by the participant; a language model's claim
-alone does not prove it. Age of the folder never triggers deletion.
-
-## Edit and build
-
-All participant-facing source lives in [packet/Academy](packet/Academy).
-
-| Source | Purpose |
-|---|---|
-| `packet/Academy/ACADEMY.md` | Entry point that becomes a short working guide |
-| `packet/Academy/AGENTS.md` | Lasting companion role: AI fluency, context and learning through work |
-| `packet/Academy/ONBOARDING.md` | Temporary welcome, save, recovery and cleanup steps |
-| `packet/Academy/Course/instructions.md` | Lasting assistant behavior |
-| `packet/Academy/Course/commands.md` | The `/la start`, `/la save` and `/la wrap` routines; shipped unused until a facilitator introduces them |
-| `packet/Academy/Course/examples.md` | Five fictional A–E examples with small illustrations and context lessons |
-| `packet/Academy/Course/` | Course schedule, actions and Session 1 practice material |
-| `scripts/build.py` | Reproducible ZIP, hash manifest and new rehearsal extraction |
-| `docs/VERIFICATION.md` | Tested boundaries and remaining classroom checks |
-| `docs/PUBLICATION.md` | What is public, the release route and remaining release work |
-
-With Python 3 installed:
-
-```sh
-python3 -m unittest discover -s tests -v
-python3 scripts/build.py
-python3 scripts/build.py --check
-python3 scripts/build.py --extract-to ../academy-c2-rehearsal/v0.1.3
-```
-
-The extraction destination must not exist. Do not edit generated ZIPs or practice
-copies as source. Do not use the starter ZIP as an update over an existing
-participant folder; update course material separately and preserve saved work.
-Commit source changes and rebuilt `dist/` together. The builder packages exactly
-eleven allowed files and rejects participant notes or recorded onboarding progress.
-
-## Releases and drafts
-
-This repository is public, and `main` is the release. A participant's assistant
-reads `packet/Academy/Course/release-index.json` on `main` and fetches new or
-changed course files from the same folder, as `Course/instructions.md` in the
-packet describes. Merging to `main` and pushing therefore publishes to every
-participant folder that checks for updates.
-
-- Keep nothing private here: no participant data, no restricted recordings, and
-  no faculty material without the owner's agreement to public release.
-- Draft later-session material on a branch, not on `main`. The Session 2 draft
-  and the Session 3 illustration are on `draft/sessions-2-3`.
-- Each draft file still needs an entry in `release-index.json` with
-  `"status": "draft"`. The builder leaves draft files and their index entries
-  out of the Session 1 ZIP and rejects any file the index doesn't record.
-- To release a file, set its status, raise its `version`, and merge to `main`.
-  The builder currently accepts only the eleven Session 1 files plus drafts, so
-  the first later-session release needs a builder change. See
-  [docs/PUBLICATION.md](docs/PUBLICATION.md).
-
-`ACADEMY.md` explicitly routes the assistant to the participant's `AGENTS.md`.
-No automatic loading of that filename is assumed in either app. The repository's
-own root `AGENTS.md` is maintainer guidance and is not included in the packet.
-
-## Relationship to AI Memory Folder
-
-Inspired by [ObneyAI/ai-memory-folder](https://github.com/ObneyAI/ai-memory-folder),
-which already describes temporary setup that becomes lasting personal context.
-This is a separately authored Academy packet with its own repository and history.
-There is no runtime dependency, submodule or automatic sync with that kit.
-
-| AI Memory Folder | Academy Memory |
-|---|---|
-| General personal assistant kit | Cohort-specific learning workspace |
-| Personal setup interview and About Me note | Reviewed exploration notes, later personal needs, and course context |
-| Claude, ChatGPT and Grok Bot kit variants | One folder packet; Cowork and ChatGPT Work are the initial rehearsal routes |
-| General note-growth guidance | Course continuity with a save/recover completion gate |
-
-This packet does not install the general kit, collect a personal profile, or
-modify its repository. Course materials and participant notes have different
-owners: the participant controls sharing, and saving never submits to faculty.
+See [maintainers/](maintainers/README.md). That folder and this page are left
+out of the ZIP.

@@ -4,10 +4,12 @@ Record package checks separately from what a participant has demonstrated.
 
 ## What the automated tests cover
 
-The package tests cover package contents, reproducibility, stale output,
-symlinks, participant-content rejection, draft exclusion and non-overwriting
-extraction. They do not establish that an assistant follows the
-natural-language protocol in the packet.
+The checks in `maintainers/test_workspace.py` cover what the ZIP will contain,
+the release index and its addresses, a clean onboarding state, symlinks and
+participant-content rejection. They build the ZIP locally with `git archive`,
+which applies the same `export-ignore` rules GitHub uses. They do not download
+from GitHub, and they do not establish that an assistant follows the
+natural-language protocol in the folder.
 
 ## What still needs a participant rehearsal
 
@@ -16,12 +18,13 @@ exploring, saving, fresh-chat recovery, cleanup, the `/la` commands and a course
 update all need a rehearsal on each offered route. The course update addresses
 return nothing until the repository is public.
 
-Use a new extracted folder outside the source checkout. Record the app version,
+Use a newly unzipped folder outside the source checkout. Record the app version,
 account type, date, elapsed time and any facilitator intervention. Keep
 rehearsal records and screenshots outside this repository.
 
 | Check | Pass condition |
 |---|---|
+| Download | The GitHub ZIP downloads and unzips without Git or an account; the folder holds only `ACADEMY.md`, `AGENTS.md`, `ONBOARDING.md` and `Course/` |
 | Open | Assistant reads course sources and briefly asks for preferred name, role, work and learning hopes; waits before overview/menu |
 | Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases |
 | Explore | Shows a small fictional illustration and one context lesson; follows curiosity before offering to save |
@@ -38,6 +41,7 @@ rehearsal records and screenshots outside this repository.
 | Commands | A message starting with “/” reaches the assistant as text; `la start` works without the slash; a cold `/la start` in a new chat finds `AGENTS.md` |
 | Course update | Assistant reaches the release addresses, saves files only inside `Course/`, skips draft entries, and leaves participant files and completed onboarding alone |
 | Failed update | A failed fetch is reported plainly, with the manual step; no course content is invented |
+| Manual update | Downloading the ZIP again and copying only `Course/` brings in new material and leaves participant files and completed onboarding alone |
 
 ## Failure and recovery cases
 

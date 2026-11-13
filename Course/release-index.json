@@ -7,8 +7,9 @@
   "source": {
     "repository": "https://github.com/ObneyAI/2026-academy-memory",
     "branch": "main",
-    "index": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/release-index.json",
-    "files": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/packet/Academy/Course/"
+    "index": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/release-index.json",
+    "files": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/",
+    "archive": "https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip"
   },
   "files": [
     {

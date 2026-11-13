@@ -11,7 +11,7 @@ Temporary guidance for the assistant in an extracted participant workspace.
 Read `AGENTS.md` for your role and follow `Course/instructions.md` throughout.
 Use real file reads and writes.
 This template stays in the author's source repository; never prune a copy inside
-a Git checkout or a repository's `packet/Academy` source tree.
+a Git checkout or a folder that contains `maintainers/`.
 
 ## Your job during onboarding
 

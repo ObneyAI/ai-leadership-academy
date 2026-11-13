@@ -3,7 +3,10 @@ __pycache__/
 *.pyc
 .env
 .env.*
-**/Starting-Point.md
-**/Notes/
-**/Builds/
-**/Personal/
+# Participant work never belongs in this repository.
+/Starting-Point.md
+/Session-Notes/
+/Builds/
+/AI Opportunities/
+/Notes/
+/Personal/

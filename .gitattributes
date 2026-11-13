@@ -1,0 +1,6 @@
+# The ZIP that GitHub builds from this repository is the participant's
+# starting folder. Everything marked export-ignore stays out of that ZIP.
+.gitattributes  export-ignore
+.gitignore      export-ignore
+README.md       export-ignore
+maintainers     export-ignore
