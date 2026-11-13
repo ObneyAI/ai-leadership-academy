@@ -1,0 +1,73 @@
+week_start,branch,technicians,available_tech_hours,overtime_hours
+2026-08-31,Baton Rouge,10,400,7
+2026-08-31,Lafayette,8,320,5
+2026-08-31,Lake Charles,6,240,3
+2026-08-31,Hammond,5,192,3
+2026-08-31,Houma,4,152,3
+2026-08-31,Alexandria,3,120,7
+2026-09-07,Baton Rouge,10,400,7
+2026-09-07,Lafayette,8,312,4
+2026-09-07,Lake Charles,6,240,7
+2026-09-07,Hammond,5,200,0
+2026-09-07,Houma,4,160,0
+2026-09-07,Alexandria,3,120,10
+2026-09-14,Baton Rouge,10,400,7
+2026-09-14,Lafayette,8,320,5
+2026-09-14,Lake Charles,6,232,4
+2026-09-14,Hammond,5,200,4
+2026-09-14,Houma,4,152,2
+2026-09-14,Alexandria,3,112,9
+2026-09-21,Baton Rouge,10,400,7
+2026-09-21,Lafayette,8,320,6
+2026-09-21,Lake Charles,6,240,6
+2026-09-21,Hammond,5,200,3
+2026-09-21,Houma,4,160,3
+2026-09-21,Alexandria,3,120,11
+2026-09-28,Baton Rouge,10,400,9
+2026-09-28,Lafayette,8,312,5
+2026-09-28,Lake Charles,6,240,4
+2026-09-28,Hammond,5,192,0
+2026-09-28,Houma,4,160,1
+2026-09-28,Alexandria,3,112,6
+2026-10-05,Baton Rouge,10,400,10
+2026-10-05,Lafayette,8,320,7
+2026-10-05,Lake Charles,6,232,3
+2026-10-05,Hammond,5,200,6
+2026-10-05,Houma,4,160,0
+2026-10-05,Alexandria,3,112,6
+2026-10-12,Baton Rouge,10,400,4
+2026-10-12,Lafayette,8,320,2
+2026-10-12,Lake Charles,6,232,5
+2026-10-12,Hammond,5,200,6
+2026-10-12,Houma,4,160,0
+2026-10-12,Alexandria,3,112,6
+2026-10-19,Baton Rouge,10,400,4
+2026-10-19,Lafayette,8,312,4
+2026-10-19,Lake Charles,6,240,3
+2026-10-19,Hammond,5,200,3
+2026-10-19,Houma,4,160,6
+2026-10-19,Alexandria,3,120,8
+2026-10-26,Baton Rouge,10,400,10
+2026-10-26,Lafayette,8,320,6
+2026-10-26,Lake Charles,5,200,22
+2026-10-26,Hammond,5,192,3
+2026-10-26,Houma,4,160,6
+2026-10-26,Alexandria,3,120,6
+2026-11-02,Baton Rouge,10,400,7
+2026-11-02,Lafayette,8,320,7
+2026-11-02,Lake Charles,4,152,38
+2026-11-02,Hammond,5,200,4
+2026-11-02,Houma,4,160,5
+2026-11-02,Alexandria,3,120,11
+2026-11-09,Baton Rouge,10,400,10
+2026-11-09,Lafayette,8,320,4
+2026-11-09,Lake Charles,4,160,44
+2026-11-09,Hammond,5,200,3
+2026-11-09,Houma,4,160,6
+2026-11-09,Alexandria,3,120,11
+2026-11-16,Baton Rouge,10,400,10
+2026-11-16,Lafayette,8,320,3
+2026-11-16,Lake Charles,4,160,47
+2026-11-16,Hammond,5,200,2
+2026-11-16,Houma,4,160,5
+2026-11-16,Alexandria,3,120,6
