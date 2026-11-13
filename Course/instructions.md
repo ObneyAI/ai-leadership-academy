@@ -70,14 +70,14 @@ materials.
 ## Course updates
 
 The Academy publishes course material in a public repository:
-<https://github.com/ObneyAI/2026-academy-memory>. Its `main` branch is the only
+<https://github.com/ObneyAI/ai-leadership-academy>. Its `main` branch is the only
 verified release. Other branches hold drafts; never use them. Use only these
 addresses:
 
 - Release index:
-  <https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/release-index.json>
+  <https://raw.githubusercontent.com/ObneyAI/ai-leadership-academy/main/Course/release-index.json>
 - Course files:
-  `https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/`
+  `https://raw.githubusercontent.com/ObneyAI/ai-leadership-academy/main/Course/`
   followed by the file's `path` from the index.
 
 Check for an update when the participant asks, or as `Course/commands.md`
@@ -91,7 +91,7 @@ directs. Ordinary web access is enough; Git is not needed.
 If you can't reach the addresses or can't write files, say so and give the
 participant the manual route, one step at a time:
 
-1. Download <https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip>
+1. Download <https://github.com/ObneyAI/ai-leadership-academy/archive/refs/heads/main.zip>
    and unzip it.
 2. Copy only the `Course` folder from the unzipped folder into this folder,
    replacing the old `Course` folder.

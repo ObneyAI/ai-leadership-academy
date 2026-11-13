@@ -4,12 +4,12 @@ Keep source availability, public release and classroom readiness distinct.
 
 ## Source and download
 
-`ObneyAI/2026-academy-memory` is intended to be a public repository. On
+`ObneyAI/ai-leadership-academy` is intended to be a public repository. On
 November 13 it was still private; these changes prepare it for the switch.
 
 `main` is the release, and the repository root is the participant folder.
 Participants set up from the ZIP that GitHub builds from `main`:
-<https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip>. Maintainer files are left out of that ZIP. No Git is needed.
+<https://github.com/ObneyAI/ai-leadership-academy/archive/refs/heads/main.zip>. Maintainer files are left out of that ZIP. No Git is needed.
 
 Until the repository is public, that address and the update addresses return
 nothing. The [Session 1 setup page](https://links.obney.ai/c2-setup) still

@@ -7,7 +7,7 @@ assistant, so root files are participant-facing.
 ## How participants get it
 
 - **Set up:** they download the ZIP that GitHub builds from `main`
-  (<https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip>), unzip it and select the folder. No Git is needed. The setup page
+  (<https://github.com/ObneyAI/ai-leadership-academy/archive/refs/heads/main.zip>), unzip it and select the folder. No Git is needed. The setup page
   links to that address.
 - **Updates:** their assistant reads `Course/release-index.json` on `main` and
   fetches new or changed files from `Course/`, as `Course/instructions.md`
@@ -34,7 +34,7 @@ ZIP holds only:
 | `Course/release-index.json` | Every course file, its version and the update addresses |
 | `Course/…` | Schedule, participant actions and session material |
 
-GitHub names the unzipped folder `2026-academy-memory-main`. Participants can
+GitHub names the unzipped folder `ai-leadership-academy-main`. Participants can
 rename it.
 
 ## Working in this checkout
@@ -63,6 +63,10 @@ release a file, raise its `version`, set its `updated` date and merge to
 not reach `main`; assistants skip such entries, and the checks reject them on
 `main`.
 
+This repository serves one cohort at a time. Cohort 2 folders keep reading
+`main` here, so give a later cohort its own repository or branch before its
+material goes on `main`.
+
 Only `Course/` reaches existing folders. A change to `ACADEMY.md`, `AGENTS.md`
 or `ONBOARDING.md` reaches new downloads only.
 
@@ -82,7 +86,7 @@ status is in [PUBLICATION.md](PUBLICATION.md).
 To make a rehearsal copy the way GitHub will, outside this checkout:
 
 ```sh
-git archive --format=zip --prefix=2026-academy-memory-main/ -o ../academy-rehearsal.zip HEAD
+git archive --format=zip --prefix=ai-leadership-academy-main/ -o ../academy-rehearsal.zip HEAD
 ```
 
 ## Relationship to AI Memory Folder

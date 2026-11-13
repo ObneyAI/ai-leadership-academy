@@ -5,11 +5,11 @@
   "updated": "2026-11-13",
   "instruction_version": 8,
   "source": {
-    "repository": "https://github.com/ObneyAI/2026-academy-memory",
+    "repository": "https://github.com/ObneyAI/ai-leadership-academy",
     "branch": "main",
-    "index": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/release-index.json",
-    "files": "https://raw.githubusercontent.com/ObneyAI/2026-academy-memory/main/Course/",
-    "archive": "https://github.com/ObneyAI/2026-academy-memory/archive/refs/heads/main.zip"
+    "index": "https://raw.githubusercontent.com/ObneyAI/ai-leadership-academy/main/Course/release-index.json",
+    "files": "https://raw.githubusercontent.com/ObneyAI/ai-leadership-academy/main/Course/",
+    "archive": "https://github.com/ObneyAI/ai-leadership-academy/archive/refs/heads/main.zip"
   },
   "files": [
     {

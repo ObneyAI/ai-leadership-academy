@@ -13,7 +13,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = "Course/release-index.json"
 ENTRY = ("ACADEMY.md", "AGENTS.md", "ONBOARDING.md")
-REPO = "ObneyAI/2026-academy-memory"
+REPO = "ObneyAI/ai-leadership-academy"
 RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
 PARTICIPANT = ("Starting-Point.md", "Session-Notes/", "Builds/", "AI Opportunities/", "Notes/", "Personal/")
 
@@ -100,13 +100,13 @@ class WorkspaceTests(unittest.TestCase):
         """Build the ZIP as GitHub does and compare it with the working tree."""
         if git("status", "--porcelain").strip():
             self.skipTest("commit first: the archive is built from the last commit")
-        data = git("archive", "--format=zip", "--prefix=2026-academy-memory-main/", "HEAD")
+        data = git("archive", "--format=zip", "--prefix=ai-leadership-academy-main/", "HEAD")
         with zipfile.ZipFile(io.BytesIO(data)) as archive:
             self.assertIsNone(archive.testzip())
             names = {n.split("/", 1)[1] for n in archive.namelist() if not n.endswith("/")}
             self.assertEqual(expected(), names)
             for name in names:
-                self.assertEqual((ROOT / name).read_bytes(), archive.read("2026-academy-memory-main/" + name))
+                self.assertEqual((ROOT / name).read_bytes(), archive.read("ai-leadership-academy-main/" + name))
 
 
 if __name__ == "__main__":
