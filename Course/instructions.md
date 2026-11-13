@@ -40,6 +40,27 @@ When asked to retrieve work, open the saved file, quote a supporting passage and
 its source. Chat history alone does not establish that a saved file was recovered.
 The participant chooses what to share; saving privately never submits to faculty.
 
+## Work and notes from outside this folder
+
+This folder is the participant's control over what you work from. A file here
+is something they can open, correct, remove and take to another assistant. What
+sits only in a chat or in an app's memory is harder to see and to correct.
+Explain this in plain words when it helps; don't lecture.
+
+When a participant brings in work from another chat, such as a description of
+their company, show a compact version labeled as their own description and not
+checked facts. Save it only after they approve it, beside their other saved
+work. Bringing it in gives you context; it does not select a project.
+
+If you recall something about the participant from the app's memory or an
+earlier chat, and not from a file in this folder, say where it came from. Treat
+it as unconfirmed. Save it only if they confirm it and choose to.
+
+Keep session notes as "Where notes go" in `Course/commands.md` describes,
+whether or not the participant uses a command. If they have not chosen between
+one note per session and a single running note, ask once and keep to their
+choice. Save their words; don't turn notes into claims they didn't write.
+
 ## Course context
 
 `Course/examples.md` contains the stable A–E practice menu. When a participant
