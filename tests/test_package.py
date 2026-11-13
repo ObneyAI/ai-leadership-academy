@@ -68,18 +68,34 @@ class PackageTests(unittest.TestCase):
         for name in (builder.ARCHIVE, "manifest.json"):
             self.assertEqual((ROOT / "dist" / name).read_bytes(), (self.root / "dist" / name).read_bytes())
 
+    def add_draft(self, name="09-Draft/notes.md"):
+        """Add a draft file and its index entry, so the tests don't depend on real drafts."""
+        path = self.root / "packet/Academy/Course" / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("Draft\n")
+        index_path = self.root / "packet/Academy/Course/release-index.json"
+        index = json.loads(index_path.read_text())
+        index["files"].append(
+            {"path": name, "session": 9, "type": "practice-guide", "version": 1, "updated": "2026-11-13", "status": "draft"}
+        )
+        index_path.write_bytes(builder.index_json(index))
+
     def test_draft_files_stay_out_of_session_1_zip(self):
+        self.add_draft()
         builder.build(self.root)
         with zipfile.ZipFile(self.root / "dist" / builder.ARCHIVE) as archive:
             names = archive.namelist()
             index = json.loads(archive.read("Academy/Course/release-index.json"))
-        self.assertFalse([name for name in names if "02-Applications" in name or "03-Opportunities" in name])
+        self.assertEqual(11, len(names))
+        self.assertFalse([name for name in names if "09-Draft" in name])
         self.assertNotIn("draft", {item["status"] for item in index["files"]})
-        source = json.loads((self.root / "packet/Academy/Course/release-index.json").read_text())
-        self.assertIn("draft", {item["status"] for item in source["files"]})
+        for name in (builder.ARCHIVE, "manifest.json"):
+            self.assertEqual((ROOT / "dist" / name).read_bytes(), (self.root / "dist" / name).read_bytes())
 
     def test_unrecorded_session_file_blocks_packaging(self):
-        (self.root / "packet/Academy/Course/02-Applications/recap.md").write_text("Not in the index")
+        path = self.root / "packet/Academy/Course/09-Draft/recap.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("Not in the index")
         with self.assertRaises(ValueError):
             builder.build(self.root)
 
