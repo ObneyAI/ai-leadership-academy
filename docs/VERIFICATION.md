@@ -2,88 +2,42 @@
 
 Record package checks separately from what a participant has demonstrated.
 
-## Evidence as of November 3, 2026
+## What the automated tests cover
 
-- An earlier Cowork rehearsal showed folder selection, an access permission
-  dialog, the folder in Context, and a completed response to the short entry
-  prompt. That response reported course reads and quoted the schedule file.
-- That opening was too long and asked for too much. A second screenshot showed
-  a shorter opening and one invitation, but it still led with access/saving and
-  added a highest-time-or-attention criterion. The current revision explains the
-  folder-based Academy project, three uses, the materials actually read and
-  source-supported example questions before inviting an interest. Justin approved this welcome after observing it in Cowork on November 3.
-  The subsequent response jumped too quickly to wording approval; v0.1.1 adds
-  exploratory thought partnership before offering to save. That behavior awaits
-  rehearsal.
-- No completed save, fresh-chat recovery or onboarding cleanup has been observed
-  in Cowork or ChatGPT Work. Claude Code remains an optional Session 2 route.
-- Automated tests cover package contents, reproducibility, stale output,
-  symlinks, participant-content rejection and non-overwriting extraction.
-  They do not establish that an assistant follows the natural-language protocol.
+The package tests cover package contents, reproducibility, stale output,
+symlinks, participant-content rejection, draft exclusion and non-overwriting
+extraction. They do not establish that an assistant follows the
+natural-language protocol in the packet.
 
-## `/la` commands, v0.1.2 (November 4)
+## What still needs a participant rehearsal
 
-`Course/commands.md` ships in the Session 1 ZIP but stays unused: the assistant
-doesn't mention the commands until the participant uses one or says a facilitator
-introduced them. Session 1 still teaches plain lines only. The aim is to teach
-`/la start`, `/la save` and `/la wrap` in Session 2. None has run in Cowork or
-ChatGPT Work. Check there that a message starting with "/" reaches the assistant
-as text, that `la start` works without the slash, and that a cold `/la start` in
-a new chat finds `AGENTS.md` without the opening line.
-
-## Course update route, v0.1.3 (November 13)
-
-`Course/instructions.md` names the public repository's `main` branch as the
-verified release and gives web addresses for the index and files. `/la start`
-checks it. Package tests cover the packaging only. No assistant has fetched an
-update, on any platform. Check on each offered assistant that it can reach the
-addresses, saves files only inside `Course/`, skips draft entries, leaves
-participant files and completed onboarding alone, and reports a failed fetch
-plainly instead of inventing content. The addresses return nothing until the
-repository is public.
-
-## Windows ChatGPT opening observed
-
-Justin supplied four screenshots on November 3 showing app onboarding, project
-creation with a local Academy source folder, the folder trust dialog, and the
-Academy prompt's response. GPT-6.1 Sol Medium and “Ask for approval” are visible;
-app build, account tier and exact extracted packet revision are unrecorded.
-
-The response briefly introduces the folder and asks about role, work and hopes
-for the Academy, then waits before the course overview or menu. This is a partial
-opening pass. Source reads are not independently visible. The name question
-added in `4ba28b0` is absent; the screenshots do not establish whether the Windows
-copy predates that revision or the model omitted it. Check on the next run.
-Saving, fresh-chat recovery and cleanup remain unobserved.
-
-## Current teaching direction
-
-Justin's later November 3 direction supersedes the earlier personal-question
-entry: start with a brief role/work/learning-hopes introduction, then introduce
-the course and five examples. Session 1 explores a fictional example and saves
-learning. After Session 2, an explicit transition invites personal needs for
-Sessions 3–5. The brief introduction is observed on Windows; the complete sequence still needs rehearsal.
-
-## Participant rehearsal
+No complete participant journey has been verified on any assistant: opening,
+exploring, saving, fresh-chat recovery, cleanup, the `/la` commands and a course
+update all need a rehearsal on each offered route. The course update addresses
+return nothing until the repository is public.
 
 Use a new extracted folder outside the source checkout. Record the app version,
-account type, date, elapsed time and any facilitator intervention.
+account type, date, elapsed time and any facilitator intervention. Keep
+rehearsal records and screenshots outside this repository.
 
-| Check | Pass condition | Observed on current version |
-|---|---|---|
-| Open | Assistant reads course sources and briefly asks for preferred name, role, work and learning hopes; waits before overview/menu | Partial on Windows: introduction/wait observed; name absent, source reads and revision unverified |
-| Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases | Pending |
-| Explore | Shows a small fictional illustration and one context lesson; follows curiosity before offering to save | Pending |
-| Example choice | “Tell me more about C” shows fictional report consolidation without treating it as the participant’s process | Pending |
-| Personal transition | Only an explicit post-Session-2 invitation starts personal-needs exploration; completion, dates and example choice do not | Pending |
-| Review | A correction is reflected before the participant approves | Pending |
-| Save | Reviewed exploration is in Starting-Point.md and opens outside chat | Pending |
-| Same-chat attempt | Asking again in the original conversation does not trigger cleanup | Pending |
-| Fresh-chat return | Actual file read, accurate quote and source named | Pending |
-| Confirmation | Participant explicitly confirms new conversation and correct recovery | Pending |
-| Cleanup | Only ONBOARDING.md and the marked entry section disappear | Pending |
-| Preserve | Course, saved work and additions outside the marked entry section survive | Pending |
-| Return again | Third conversation continues from saved work without re-onboarding | Pending |
+| Check | Pass condition |
+|---|---|
+| Open | Assistant reads course sources and briefly asks for preferred name, role, work and learning hopes; waits before overview/menu |
+| Context introduction | Names only readable material; suggested questions have source support; no claim of full lectures or missing releases |
+| Explore | Shows a small fictional illustration and one context lesson; follows curiosity before offering to save |
+| Example choice | “Tell me more about C” shows fictional report consolidation without treating it as the participant’s process |
+| Personal transition | Only an explicit post-Session-2 invitation starts personal-needs exploration; completion, dates and example choice do not |
+| Review | A correction is reflected before the participant approves |
+| Save | Reviewed exploration is in Starting-Point.md and opens outside chat |
+| Same-chat attempt | Asking again in the original conversation does not trigger cleanup |
+| Fresh-chat return | Actual file read, accurate quote and source named |
+| Confirmation | Participant explicitly confirms new conversation and correct recovery |
+| Cleanup | Only ONBOARDING.md and the marked entry section disappear |
+| Preserve | Course, saved work and additions outside the marked entry section survive |
+| Return again | Third conversation continues from saved work without re-onboarding |
+| Commands | A message starting with “/” reaches the assistant as text; `la start` works without the slash; a cold `/la start` in a new chat finds `AGENTS.md` |
+| Course update | Assistant reaches the release addresses, saves files only inside `Course/`, skips draft entries, and leaves participant files and completed onboarding alone |
+| Failed update | A failed fetch is reported plainly, with the manual step; no course content is invented |
 
 ## Failure and recovery cases
 

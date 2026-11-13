@@ -20,4 +20,5 @@ owner's agreement to public release.
 
 Before publishing: run the package tests and build check; inspect the tracked
 file list for participant content. Track platform rehearsal separately from
-automated package checks. Preserve public-release approval status in docs.
+automated package checks, and keep rehearsal records, screenshots and feedback
+on drafts outside this repository. Preserve public-release approval status in docs.

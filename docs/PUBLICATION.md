@@ -28,7 +28,7 @@ files. `/la start` checks it. `Course/release-index.json` records the same
 addresses under `source`.
 
 - **Not rehearsed.** No assistant has fetched an update on a participant
-  account. See `docs/VERIFICATION.md`.
+  account. See [VERIFICATION.md](VERIFICATION.md).
 - **Folders from the v0.1.2 ZIP don't know the address.** Participants who set
   up on November 13 need it given to them once, for example on a Session 2
   slide. After that first update their folder carries it.
@@ -39,9 +39,9 @@ addresses under `source`.
 
 ## Included material
 
-The packet contains the published cohort schedule, participant action wording
-revised to reflect Justin’s November 3 teaching direction, and a practice guide/questions for Justin's Session 1 block.
-The practice guide is not Andrew's handout or a recap of a delivered session.
+The packet contains the published cohort schedule, participant actions, and a
+practice guide and questions for Session 1. The practice guide is not a faculty
+handout or a recap of a delivered session.
 The course index retains rehearsal status. The A–E practice scenarios are fictional
 examples inspired by broad first-cohort work themes. They carry no participant
 names, distinctive disclosures, quotations or outcome claims. No participant
@@ -65,6 +65,6 @@ assistants read only `main`.
 - Review and release later-session material separately. Future course updates must preserve participant
   work and must not reinstall onboarding into a completed workspace.
 
-Andrew's handout, participant introduction recordings and prior participant
-surveys are excluded. Faculty material goes in this repository only with the
+Faculty handouts, participant recordings and participant surveys are excluded.
+Faculty material goes in this repository only with the
 owner's agreement to public release; anything else keeps a separate route.
