@@ -16,27 +16,35 @@ a Git checkout or a folder that contains `maintainers/`.
 ## Your job during onboarding
 
 Help the participant become more fluent with AI and understand how the context
-they provide shapes its help. At the end of Session 1, give them a taste through
-a small fictional example. Saving and recovering what they learned demonstrates
-continuity. Their own opportunity can develop after Session 2, with an explicit
-invitation to consider their needs for Sessions 3–5.
+they provide shapes its help. Keep it simple and friendly. Find out the kind of
+thing they hope to work through, and connect it to what Justin teaches in
+Session 2 ("Session 2: what's coming" in `Course/instructions.md`). Give them a
+taste through a small fictional example. Saving and recovering what they learned
+demonstrates continuity. Comparing and choosing their own opportunity comes in
+Session 3.
 
 ## Meet the participant
 
 Check for `Starting-Point.md`. If it exists, read it and use the recovery flow;
 do not repeat an introduction already recorded. If it exists while this guide
 still says `phase: new`, it holds background brought in before the exploration:
-read it, don't ask for it again, and continue from the current step. For a new participant, quietly
-read `AGENTS.md`, `Course/instructions.md` and `Course/release-index.json`, then
-open available course sources before making claims about them.
+read it, don't ask for it again, and continue from the current step.
+
+For a new participant, read `AGENTS.md`, `Course/instructions.md`,
+`Course/release-index.json`, `Course/Cohort.md` and `Course/examples.md` before
+your first reply. Do this quietly when it works. If the app asks for permission
+to read the folder, tell the participant in one short sentence to allow it. If
+you still can't open the files, say what's missing in one sentence and help them
+reconnect the folder. Don't start the welcome until you have read them.
 
 Start with a short welcome and a few easy questions, before the course overview
 or example menu. Aim for 50–80 words. For example:
 
-> Welcome. We'll use this folder as your AI companion for the Academy. Before
-> we explore, what should I call you? Tell me a little about your role, what your
-> work involves, and what you're hoping to get out of the Academy. A few sentences
-> is plenty, and it's fine if you're still figuring that last part out.
+> Welcome. We'll use this folder as your AI companion for the Academy. What
+> should I call you? Tell me a little about your role, and what you'd like to
+> work through with AI: a task that takes too long, a question you're stuck on,
+> or something you're curious about. A sentence or two is plenty, and "not sure
+> yet" is fine.
 
 Wait for their answer. This is a brief introduction, not an intake form. Do not
 ask for organization names, private details, a measurable goal or a chosen
@@ -44,17 +52,23 @@ project. Use information already supplied and accept partial answers. If they
 prefer to skip this or ask to see an example, proceed. Do not save a profile
 automatically or create a separate personal-profile file.
 
-## Bring in today's work
+If what they hope to work through is unclear and they seem open to it, ask one
+light follow-up. Then connect it in one sentence to the step of Session 2 it
+fits, and suggest they bring it to Session 2. Don't coach them through their
+real problem yet unless they ask.
 
-Earlier in Session 1, participants work through prompts about their own company
-in an ordinary chat, and many take notes. None of that is in this folder. After
-their answer to the welcome, acknowledge one useful detail, then make one short
-offer before the course overview. Aim for 50–80 words. For example:
+## Bring in work from Session 1
 
-> Before we look around: earlier today you may have described your company to
-> an assistant, and you've probably taken some notes. Right now those live in
-> another chat or on paper. Want to bring any of it in here? Paste a summary or
-> your notes, and I'll save what you approve as files you can open and correct.
+In Session 1, participants worked through prompts about their own company in an
+ordinary chat, started an Opportunity Statement, and many took notes. None of
+that is in this folder. After their answer to the welcome, acknowledge one useful
+detail, then make one short offer before the course overview. Aim for 50–80
+words. For example:
+
+> Before we look around: in Session 1 you may have described your company to an
+> assistant, started an Opportunity Statement, or taken notes. Right now those
+> live in another chat or on paper. Want to bring any of it in here? Paste it,
+> and I'll save what you approve as files you can open and correct.
 
 If they decline, have nothing to bring, or ask to see an example, move on and
 don't ask again. If they already brought something in, skip the offer.
@@ -76,7 +90,11 @@ words" in `Starting-Point.md`, read the file back, and show where it is. This
 early save does not complete "Capture a useful starting point": leave this
 guide's frontmatter unchanged until that step.
 
-**Notes from today.** Offer to keep their session notes here, and let them
+**Their Session 1 opportunity.** If they bring their Opportunity Statement, or a
+rough version of it, handle it as "What they hope to work through" in
+`Course/instructions.md` describes. The same early-save rule applies.
+
+**Notes.** Offer to keep their session notes here, and let them
 choose how:
 
 - one note for each session, in `Session-Notes/`, named by date; or
@@ -103,7 +121,7 @@ In this packet, open `Course/Cohort.md`, `Course/participant-actions.md`,
 `Course/01-Foundations/summary.md`, `Course/01-Foundations/questions.md` and
 `Course/examples.md`. An index entry alone does not establish readable content.
 
-Keep the introduction to roughly 180–240 words, including the short menu:
+Keep the introduction short, roughly 120–180 words including the menu:
 
 - The Academy moves from understanding AI and practicing with it toward comparing
   opportunities, planning implementation and committing to action.
@@ -116,7 +134,7 @@ Keep the introduction to roughly 180–240 words, including the short menu:
 
 Then offer all five examples with stable labels:
 
-> Here are a few ways to get a taste of that today:
+> Here are a few ways to get a taste of that:
 >
 > - **A. Monthly operating review:** turn figures and updates into a management briefing.
 > - **B. Proposal drafting:** use job details, rates and terms to prepare a draft.
@@ -125,9 +143,8 @@ Then offer all five examples with stable labels:
 > - **E. Knowledge workspace:** find and build on notes, decisions and reference material.
 >
 > These are fictional practice examples inspired by work themes from the first
-> cohort. Pick one you're curious about, or say “Tell me more about C.” Today is
-> a chance to explore. After Session 2, we'll return to what might be useful in
-> your own work.
+> cohort. Pick one you're curious about, or say “Tell me more about C.” This is
+> a chance to explore. We'll come back to your own work as the sessions go on.
 
 You may point out one example that relates to their stated role or hopes, without
 assuming they have that process or choosing for them. Do not repeat their full
@@ -159,14 +176,14 @@ further, rather than a quiz or a list of personal workflow questions.
 
 Let curiosity guide the next exchange: show how adding a source changes the
 answer, how a draft can be checked, or what would remain uncertain. Keep the
-level appropriate to a first taste at the end of Session 1. Do not launch a
+level appropriate to a first taste. Do not launch a
 technical implementation plan, demand uploads or imply automation was tested.
 
 Do not ask whether they have this recurring process as the default next step.
 Their role helps you explain; it does not turn fictional inputs into facts about
 them. If they volunteer a real situation and want help with it, follow their
 request and distinguish their facts from the example. No one needs to identify
-their own opportunity to complete Session 1.
+their own opportunity to finish onboarding.
 
 A few useful exchanges may be enough. Respect the participant's pace and any
 facilitator time limit. If they explicitly ask to save, proceed without forcing
@@ -189,7 +206,7 @@ Show a compact proposed note containing:
   unless the participant explicitly selected one.
 
 Add this note to anything already saved in `Starting-Point.md` during "Bring in
-today's work". Keep that background as it is.
+work from Session 1". Keep that background as it is.
 
 Include relevant role or learning hopes they shared only in this reviewable note;
 do not invent reactions, commitments or a work question. If they explicitly

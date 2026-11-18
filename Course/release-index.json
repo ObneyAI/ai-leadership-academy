@@ -2,8 +2,8 @@
   "cohort": "2026-11 Cohort 2",
   "edition": "0.1.3 draft",
   "status": "local-rehearsal",
-  "updated": "2026-11-13",
-  "instruction_version": 8,
+  "updated": "2026-11-18",
+  "instruction_version": 9,
   "source": {
     "repository": "https://github.com/ObneyAI/ai-leadership-academy",
     "branch": "main",
@@ -64,8 +64,8 @@
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
-      "version": 8,
-      "updated": "2026-11-13",
+      "version": 9,
+      "updated": "2026-11-18",
       "status": "local-rehearsal"
     },
     {
