@@ -77,6 +77,22 @@
       "status": "local-rehearsal"
     },
     {
+      "path": "02-Applications/justin-obney-handouts.pdf",
+      "session": 2,
+      "type": "faculty-handout",
+      "version": 1,
+      "updated": "2026-11-20",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "02-Applications/justin-obney-handouts.md",
+      "session": 2,
+      "type": "faculty-handout",
+      "version": 1,
+      "updated": "2026-11-20",
+      "status": "local-rehearsal"
+    },
+    {
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
