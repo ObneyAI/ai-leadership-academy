@@ -79,6 +79,19 @@ Participant recordings and participant surveys are excluded. Other faculty
 material goes in this repository only with the owner's agreement to public
 release; anything else keeps a separate route.
 
+Tammy Tuminaro's Session 2 slides are in `Course/02-Applications/`, added
+November 20 at Justin's direction:
+
+- `tammy-tuminaro-slides.pdf`: her 22-slide deck, "Start With the End in
+  Mind", as a PDF without speaker notes (the deck has none). Built with
+  LibreOffice using Carlito and Caladea for Calibri and Cambria. Slide 13 shows
+  her daily hiring-summary email with names blurred as she presented it;
+  facility names, positions and dates remain visible.
+- `tammy-tuminaro-slides.md`: the text of each slide, for assistants.
+
+Her slides refer to a worksheet with a Quick Reference and an Opportunity Map.
+That worksheet is not in this folder.
+
 ## After Session 2
 
 On November 20, after Session 2, `Course/02-Applications/summary.md` added a

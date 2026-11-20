@@ -3,6 +3,7 @@
 A recap of Justin's block in Session 2, on November 20. It follows the slides in
 `justin-obney-slides.pdf`, in this folder. It says what the block covered, not
 what each person did in class. The handouts are in `justin-obney-handouts.pdf`.
+Tammy Tuminaro's slides from the same session are in `tammy-tuminaro-slides.pdf`.
 
 ## Getting the folder ready
 
@@ -86,6 +87,12 @@ COO and a CPA, and neither is an engineer.
 5. **Choose an opportunity to explore further.** Save what you want to pursue,
    what information or access you need, and where you may need help. Bring it
    to Session 3 on December 4.
+
+## For Session 3
+
+Tammy's homework: bring one real item from your work, such as a process, a
+report or a policy. Write what “finished” looks like and who will use it, then
+draft your first prompt. Her last slides have the steps.
 
 ## Try these with your assistant
 

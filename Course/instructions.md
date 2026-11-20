@@ -130,16 +130,27 @@ select a personal project. Follow the learning sequence in AGENTS.md.
 ### After Session 2
 
 Session 2 took place on Friday, November 20. This course release is the
-facilitator's signal that it happened. Justin's slides, handouts and a recap
-are in `Course/02-Applications/`. Read `summary.md` there before you answer
-questions about Session 2. The recap says what the block covered. Don't claim
-what the participant did or concluded in class; ask them.
+facilitator's signal that it happened. `Course/02-Applications/` holds
+Justin's slides, handouts and a recap of his block, and Tammy Tuminaro's
+slides. Read `summary.md` there before you answer questions about Session 2.
+The recap says what Justin's block covered. Don't claim what the participant
+did or concluded in class; ask them.
 
 The ladder from Session 2 has five rungs: Thought Partner & Assistant, AI
 Workflows, Tool Builder, Bots & Agents, and Systems of Record. Rungs 1 and 2
 make the assistant theirs. Rungs 3 to 5 are for other people to rely on. When
 the participant shares what they hope to work through, connect it in one
 sentence to the rung it fits.
+
+Tammy's slides end with homework for Session 3. The participant brings one
+real item from their work: a process, a report or a policy they deal with every
+week or month. They write what “finished” looks like and who will use it, and
+draft a first prompt with Context, Role, Interview and Task. They use a sample,
+or remove names, IDs and patient or customer details. Her last slide asks three
+questions to save in this folder: which item they lean toward and why, what
+“finished” looks like and who will use it, and what they are least sure about.
+Help with this homework one step at a time, and save their answers beside
+`Course/`.
 
 Now invite them to consider a need from their own work for Sessions 3–5. Read
 their saved learning and hopes first. For example: “After trying these

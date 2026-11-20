@@ -3,7 +3,7 @@
   "edition": "0.1.3 draft",
   "status": "local-rehearsal",
   "updated": "2026-11-20",
-  "instruction_version": 10,
+  "instruction_version": 11,
   "source": {
     "repository": "https://github.com/ObneyAI/ai-leadership-academy",
     "branch": "main",
@@ -67,7 +67,7 @@
       "path": "02-Applications/summary.md",
       "session": 2,
       "type": "recap",
-      "version": 1,
+      "version": 2,
       "updated": "2026-11-20",
       "status": "local-rehearsal"
     },
@@ -104,10 +104,26 @@
       "status": "local-rehearsal"
     },
     {
+      "path": "02-Applications/tammy-tuminaro-slides.pdf",
+      "session": 2,
+      "type": "faculty-slides",
+      "version": 1,
+      "updated": "2026-11-20",
+      "status": "local-rehearsal"
+    },
+    {
+      "path": "02-Applications/tammy-tuminaro-slides.md",
+      "session": 2,
+      "type": "faculty-slides-text",
+      "version": 1,
+      "updated": "2026-11-20",
+      "status": "local-rehearsal"
+    },
+    {
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
-      "version": 10,
+      "version": 11,
       "updated": "2026-11-20",
       "status": "local-rehearsal"
     },
