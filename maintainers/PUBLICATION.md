@@ -70,8 +70,9 @@ November 20 at his direction:
   pages: the field guide map, the "Start with the work, not the tool"
   worksheet, and the Certificate Cleanup, Job Shadow and CPR Instructor
   Onboarding case studies. The same packet Cohort 1 received, with the map
-  updated to the current five rungs. The CPR case study keeps its named CFO
-  quote, approved by Justin on November 20.
+  updated to the current five rungs and the case studies rewritten in plain
+  language for a non-technical reader. Facts and figures are unchanged. The
+  CPR case study keeps its named CFO quote, approved by Justin on November 20.
 - `justin-obney-handouts.md`: the text of the packet, for assistants.
 
 Participant recordings and participant surveys are excluded. Other faculty
