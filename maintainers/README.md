@@ -29,7 +29,6 @@ ZIP holds only:
 | `AGENTS.md` | Lasting companion role: AI fluency, context and learning through work |
 | `ONBOARDING.md` | Temporary welcome, save, recovery and cleanup steps |
 | `Course/instructions.md` | Lasting assistant behavior, including course updates |
-| `Course/commands.md` | The `/la start`, `/la save` and `/la wrap` routines |
 | `Course/examples.md` | Five fictional A–E examples |
 | `Course/release-index.json` | Every course file, its version and the update addresses |
 | `Course/…` | Schedule, participant actions and session material |

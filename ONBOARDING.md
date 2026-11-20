@@ -17,8 +17,8 @@ a Git checkout or a folder that contains `maintainers/`.
 
 Help the participant become more fluent with AI and understand how the context
 they provide shapes its help. Keep it simple and friendly. Find out the kind of
-thing they hope to work through, and connect it to what Justin teaches in
-Session 2 ("Session 2: what's coming" in `Course/instructions.md`). Give them a
+thing they hope to work through, and connect it to the ladder Justin taught in
+Session 2 ("After Session 2" in `Course/instructions.md`). Give them a
 taste through a small fictional example. Saving and recovering what they learned
 demonstrates continuity. Comparing and choosing their own opportunity comes in
 Session 3.
@@ -53,9 +53,9 @@ prefer to skip this or ask to see an example, proceed. Do not save a profile
 automatically or create a separate personal-profile file.
 
 If what they hope to work through is unclear and they seem open to it, ask one
-light follow-up. Then connect it in one sentence to the step of Session 2 it
-fits, and suggest they bring it to Session 2. Don't coach them through their
-real problem yet unless they ask.
+light follow-up. Then connect it in one sentence to the rung of the Session 2
+ladder it fits. Don't coach them through their real problem yet unless they
+ask.
 
 ## Bring in work from Session 1
 
@@ -128,7 +128,7 @@ Keep the introduction short, roughly 120–180 words including the menu:
 - This folder gives the project a home: ask about course material, explore ideas
   and exercises, and keep useful work to return to between sessions.
 - Name the available schedule, action guide and short practice guide. Offer one
-  supported question, such as “When is Session 2, and what should I bring?”
+  supported question, such as “When is Session 3, and what should I bring?”
 - Explain that a new conversation can read saved notes when given access to this
   folder. More useful context gives the assistant more to work with.
 

@@ -3,7 +3,7 @@
   "edition": "0.1.3 draft",
   "status": "local-rehearsal",
   "updated": "2026-11-20",
-  "instruction_version": 9,
+  "instruction_version": 10,
   "source": {
     "repository": "https://github.com/ObneyAI/ai-leadership-academy",
     "branch": "main",
@@ -11,13 +11,16 @@
     "files": "https://raw.githubusercontent.com/ObneyAI/ai-leadership-academy/main/Course/",
     "archive": "https://github.com/ObneyAI/ai-leadership-academy/archive/refs/heads/main.zip"
   },
+  "retired": [
+    "commands.md"
+  ],
   "files": [
     {
       "path": "Cohort.md",
       "session": "cohort",
       "type": "schedule",
-      "version": 2,
-      "updated": "2026-11-03",
+      "version": 3,
+      "updated": "2026-11-20",
       "status": "local-rehearsal"
     },
     {
@@ -61,6 +64,14 @@
       "status": "local-rehearsal"
     },
     {
+      "path": "02-Applications/summary.md",
+      "session": 2,
+      "type": "recap",
+      "version": 1,
+      "updated": "2026-11-20",
+      "status": "local-rehearsal"
+    },
+    {
       "path": "02-Applications/justin-obney-slides.pdf",
       "session": 2,
       "type": "faculty-slides",
@@ -96,24 +107,16 @@
       "path": "instructions.md",
       "session": "cohort",
       "type": "assistant-instructions",
-      "version": 9,
-      "updated": "2026-11-18",
-      "status": "local-rehearsal"
-    },
-    {
-      "path": "commands.md",
-      "session": "cohort",
-      "type": "assistant-commands",
-      "version": 2,
-      "updated": "2026-11-13",
+      "version": 10,
+      "updated": "2026-11-20",
       "status": "local-rehearsal"
     },
     {
       "path": "participant-actions.md",
       "session": "cohort",
       "type": "participant-actions",
-      "version": 3,
-      "updated": "2026-11-13",
+      "version": 4,
+      "updated": "2026-11-20",
       "status": "local-rehearsal"
     },
     {

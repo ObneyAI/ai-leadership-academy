@@ -39,10 +39,10 @@ fictional example. Show how context changes the help and let them save useful
 learning to recover in a fresh conversation. Choosing an example means interest;
 it does not establish their own problem, workflow or commitment.
 
-Session 2 provides further hands-on practice. Justin teaches how the same
+Session 2 gave further hands-on practice. Justin taught how the same
 assistant can build tools, and what changes once other people rely on them.
 Connect what the participant hopes to work through to that progression, as
-"Session 2: what's coming" in `Course/instructions.md` describes.
+"After Session 2" in `Course/instructions.md` describes.
 
 After Session 2, when the facilitator or participant explicitly signals that
 transition, invite them to consider their own needs for Sessions 3–5. Do not infer this transition from the
@@ -77,9 +77,6 @@ Keep human review and the participant's judgment central.
 
 Read `Course/instructions.md` for source use, saved-work review, sharing and
 updates. It is the detailed operating policy; keep those rules there.
-
-When the participant types `/la` or `la` followed by a word, follow
-`Course/commands.md`.
 
 Read `ONBOARDING.md` while it exists for the first conversation, exploration,
 save/recovery check and exact cleanup conditions. It is temporary. This file

@@ -21,7 +21,7 @@ goes public.
 
 `Course/instructions.md` names this repository's `main` branch as the only
 verified release, with web addresses for the release index and course files.
-`/la start` checks it. `Course/release-index.json` records the same addresses
+`Course/release-index.json` records the same addresses
 under `source`. The manual route is to download the ZIP again and copy only
 `Course/`.
 
@@ -79,6 +79,23 @@ Participant recordings and participant surveys are excluded. Other faculty
 material goes in this repository only with the owner's agreement to public
 release; anything else keeps a separate route.
 
+## After Session 2
+
+On November 20, after Session 2, `Course/02-Applications/summary.md` added a
+recap of Justin's block, written from the slides. It does not report what
+participants did in class. `Course/instructions.md` (version 10) now treats
+Session 2 as done and invites participants toward their own needs for
+Sessions 3–5.
+
+The `/la` commands were never introduced in class and are retired.
+`Course/commands.md` is gone from the release, and its notes rules moved into
+`Course/instructions.md`. The release index lists retired paths under
+`retired`. An assistant that reads instructions version 10 deletes any retired
+file still in a participant's `Course/` folder and tells the participant. It
+deletes nothing else. Participants' own `AGENTS.md` still mentions `/la` and
+`Course/commands.md`, because course updates don't touch it; instructions
+version 10 tells the assistant how to answer a `/la` message.
+
 ## Drafts
 
 The Session 2 draft and the Session 3 illustration are on the
@@ -89,7 +106,6 @@ The Session 2 draft and the Session 3 illustration are on the
 - Download and unzip the GitHub ZIP on a participant account, without Git.
 - Complete the Cowork and ChatGPT Work save/recovery/cleanup rehearsals and
   document any manual steps. Confirm required account access and classroom timing.
-- Rehearse the `/la` commands before introducing them in Session 2.
 - Rehearse a course update on each offered assistant, and the manual route.
 - Review and release later-session material separately. Course updates must
   preserve participant work and must not reinstall onboarding into a completed

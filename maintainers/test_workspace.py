@@ -59,6 +59,12 @@ class WorkspaceTests(unittest.TestCase):
         for path in paths:
             self.assertTrue((ROOT / "Course" / path).is_file(), path)
 
+    def test_retired_files_are_not_shipped(self):
+        current = {item["path"] for item in index()["files"]}
+        for path in index().get("retired", []):
+            self.assertNotIn(path, current)
+            self.assertFalse((ROOT / "Course" / path).exists(), path)
+
     def test_index_uses_the_standard_layout(self):
         raw = (ROOT / INDEX).read_bytes()
         self.assertEqual((json.dumps(index(), indent=2, ensure_ascii=False) + "\n").encode(), raw)
