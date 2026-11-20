@@ -54,6 +54,19 @@ November 13 at Justin's direction:
 - `andrew-schwarz-prompts.pdf` and `andrew-schwarz-prompts.md`: his "Prompts
   for Your Company" handout, printable and assistant-readable.
 
+Justin Obney's Session 2 slides are in `Course/02-Applications/`, added
+November 20 at his direction:
+
+- `justin-obney-slides.pdf`: the 45-slide deck as presented, captured from the
+  live deck, with the six views opened beneath a slide placed right after it
+  (51 pages). No speaker notes. In this copy only, the CPR onboarding slide uses
+  generic stand-ins for the phone number, street address, instructor, practice
+  and staff names in the portal mock-up; the Carl graph drops its client
+  labels; and the Carl text thread says "1 invoice overdue" without naming the
+  client. The live deck is unchanged.
+- `justin-obney-slides.md`: the visible text of each page, for assistants.
+  Page numbers match the PDF.
+
 Participant recordings and participant surveys are excluded. Other faculty
 material goes in this repository only with the owner's agreement to public
 release; anything else keeps a separate route.
